@@ -1,95 +1,55 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>chat bot</title>
-  <link href="./output.css" rel="stylesheet" />
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>
+chat bot
+</title>
+<link href="./output.css" rel="stylesheet"/>
 </head>
+
 <body class="bg-black">
-    <div
-      class="container w-[90%] h-[100vh] bg-[#212121] ml-[5%] mt-[30px] mb-[30px] rounded-[25px] flex flex-col p-[15px]"
-    >
-      <div class="icon-bar flex justify-between">
-        <div
-          class="sidebar-icon w-[35px] h-[35px] flex justify-center items-center"
-        >
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              viewBox="0 0 24 24"
-            >
-              <path
-                fill="none"
-                stroke="#fff"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="1.5"
-                d="M9 3.5v17M3 9.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C6.04 3 7.16 3 9.4 3h5.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C21 6.04 21 7.16 21 9.4v5.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C17.96 21 16.84 21 14.6 21H9.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C3 17.96 3 16.84 3 14.6z"
-              />
-            </svg>
-          </span>
-        </div>
 
-        <div class="user-icon w-[35px] h-[35px] flex justify-center items-center">
-          <span>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="30"
-              height="30"
-              viewBox="0 0 16 16"
-            >
-              <path
-                fill="#fff"
-                d="M11 7c0 1.66-1.34 3-3 3S5 8.66 5 7s1.34-3 3-3s3 1.34 3 3"
-              />
-              <path
-                fill="#fff"
-                fill-rule="evenodd"
-                d="M16 8c0 4.42-3.58 8-8 8s-8-3.58-8-8s3.58-8 8-8s8 3.58 8 8M4 13.75C4.16 13.484 5.71 11 7.99 11c2.27 0 3.83 2.49 3.99 2.75A6.98 6.98 0 0 0 14.99 8c0-3.87-3.13-7-7-7s-7 3.13-7 7c0 2.38 1.19 4.49 3.01 5.75"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </span>
-        </div>
+<div class="box w-[100%] h-[100vh] bg-[#212121] flex flex-col justify-center items-center gap-25 p-[15px]">
 
+    <div class="icon-bar w-[100%] flex justify-between">
+
+      <div class="sidebar-icon w-[35px] h-[35px] flex justify-center items-center cursor-pointer will-change-transform hover:scale-[0.95] duration-[0.2s] ">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+            <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
+            stroke-width="1.5" d="M9 3.5v17M3 9.4c0-2.24 0-3.36.436-4.216a4 4 0 0 1 1.748-1.748C6.04 3 7.16 3 9.4 3h5.2c2.24 0 3.36 0 4.216.436a4 4 0 0 1 1.748 1.748C21 6.04 21 7.16 21 9.4v5.2c0 2.24 0 3.36-.436 4.216a4 4 0 0 1-1.748 1.748C17.96 21 16.84 21 14.6 21H9.4c-2.24 0-3.36 0-4.216-.436a4 4 0 0 1-1.748-1.748C3 17.96 3 16.84 3 14.6z"/>
+          </svg>
+        </span>
       </div>
-
-      <div class="interaction w-[90%] h-[600px] mt-[30px] mb-[30px] ml-[5%] rounded-[25px] border-2">
-
-      </div>
-
-      <div class="user-input w-[50%] ml-[25%] h-auto flex rounded-[25px] p-[20px] bg-[#303030]">
-
-        <div class="add-icon w-[30px] mr-[10px] flex justify-center items-center">
-          <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><g fill="none"><path d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z"/><path fill="#fff" d="M10.5 20a1.5 1.5 0 0 0 3 0v-6.5H20a1.5 1.5 0 0 0 0-3h-6.5V4a1.5 1.5 0 0 0-3 0v6.5H4a1.5 1.5 0 0 0 0 3h6.5z"/></g></svg>
-          </span>
-        </div>
-
-        <div class="search w-[85%] mr-[10px]">
-          <input class="placeholder:text-[#AFAFAF] text-[#AFAFAF] text-[18px] pl-[10px] h-[30px]" type="text" name="" id="" placeholder="Ask anything....">
-        </div>
-
-        <div class="enter-icon w-[35px] h-[35px] flex justify-center items-center">
-          <span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m13 15l3-3m0 0l-3-3m3 3H8m13 0a9 9 0 1 0-18 0a9 9 0 0 0 18 0"/></svg>
-          </span>
-        </div>
-        
+      <div class="user-icon w-[35px] h-[35px] flex justify-center items-center cursor-pointer will-change-transform hover:scale-[0.95] duration-[0.2s] ">
+        <span>
+          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+          <path fill="#fff" d="M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12S6.477 2 12 2s10 4.477 10 10" opacity="0.5" />
+          <path fill="#fff" d="M16.807 19.011A8.46 8.46 0 0 1 12 20.5a8.46 8.46 0 0 1-4.807-1.489c-.604-.415-.862-1.205-.51-1.848C7.41 15.83 8.91 15 12 15s4.59.83 5.318 2.163c.35.643.093 1.433-.511 1.848M12 12a3 3 0 1 0 0-6a3 3 0 0 0 0 6" />
+          </svg>
+        </span>
       </div>
 
     </div>
+    
+    <div class="interaction w-[100%] h-[80vh] rounded-[25px] border-3">
+    </div>
 
-  <script src="script.js"></script>
+    <div class="user-input w-[95%] md:w-[70%] lg:w-[50%] flex items-center px-5 rounded-[25px] bg-[#303030]">
+        <textarea class="search w-full min-h-[50px] resize-none bg-transparent outline-none placeholder:text-[#AFAFAF] text-[#AFAFAF] text-[18px] py-3 pr-[2%]" placeholder="Ask anything" oninput="autoResize(this)"></textarea>
+
+        <div class="enter-icon w-[35px] h-[35px] bg-[#fefffe] rounded-full hover:scale-[0.95] duration-[0.2s] cursor-pointer will-change-transform flex justify-center items-center ml-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+          <path fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 20V4m0 0l6 6m-6-6l-6 6" />
+          </svg>
+        </div>
+    </div>
+
+</div>
 
 </body>
+<script src="script.js"></script>
 </html>
-
-
-// sending pull request
-// hello world
-
-//done changes
