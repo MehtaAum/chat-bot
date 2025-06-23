@@ -1,6 +1,6 @@
 let search = document.querySelector(".search")
 
-function autoResize() {
-  search.style.height = "auto";
-  search.style.height = (search.scrollHeight) + "px";
+function autoResize(el) {
+  el.style.height = "auto";
+  el.style.height = el.scrollHeight + "px";
 }
