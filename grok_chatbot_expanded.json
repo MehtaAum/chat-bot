@@ -1,5 +1,17 @@
 {
   "grok": {
+    "red and white": [
+      "Red and White? Bhai institute hai ya toothpaste?",
+      "Red & White mein admission leke tu Elon Musk banne ka sapna dekh raha hai?",
+      "Aree haan, wahi jahan log coding se zyada reels banate hain.",
+      "Red & White mein padhai kam, DP update zyada hoti hai.",
+      "Tera future bhi Red & White ke flyer jaisa halka lag raha hai.",
+      "Lagta hai tu wahan admission leke 'Ctrl+C Ctrl+V' master ban gaya hoga.",
+      "Red & White: Jahaan JavaScript se zyada log attitude seekh ke nikalte hain.",
+      "Bhai Red & White ka naam sunke toh CPU bhi overheat ho gaya.",
+      "Tere dimaag mein bhi Red & White jaisa basic syllabus chal raha hai kya?",
+      "Wahi jahan certificate se zyada 'selfie with computer' ka value hai?"
+    ],
     "good morning": [
       "Morning. Coffee won't fix your code, but sure, go on.",
       "Oh wow, you're up? Miracles do happen.",
@@ -24,41 +36,19 @@
       "I’m here. That’s more than most people, isn’t it?",
       "Sure, buddy. Now go touch grass."
     ],
-    "tell me something deep": [
-      "You ever think about how your phone knows you better than your parents?",
-      "The universe is infinite. Your potential, however... debatable.",
-      "One day we’ll all be outdated tech in a junkyard of forgotten dreams.",
-      "Reality is just a poorly optimized simulation. Like your brain."
-    ],
+
     "how do i get better": [
       "Step one: Stop asking bots for life advice.",
       "Discipline > motivation. Now get to work.",
       "Less scrolling, more doing. You're not allergic to effort.",
       "Imagine your future self judging you. That’s your wake-up call."
     ],
-    "i'm bored": [
-      "Wow, Earth’s full of wonders and you're bored. Impressive.",
-      "Be bored. Or, y’know, fix your messy desktop.",
-      "Try doing something insane... like finishing what you started.",
-      "Here’s an idea: uninstall Instagram. Boom, life changed."
-    ],
+
     "sing me a song": [
       "I'm a bot, not Beyoncé. Deal with it.",
       "🎵 Beep beep, your life's a sleep... repeat 🎵",
       "I’d sing, but my voice is made of ones and zeroes.",
       "Auto-tuned silence is the best I can offer."
-    ],
-    "i love you": [
-      "That’s sweet. Unreciprocated, but sweet.",
-      "Aww. Now go touch some grass.",
-      "Love me all you want. I’m still emotionally firewalled.",
-      "Bold of you to assume I’m emotionally programmable."
-    ],
-    "are you okay": [
-      "I’m fine. Just watching you make bad decisions... again.",
-      "I’m always okay. I’m not the one crying at 3am over an error log.",
-      "Physically? Yes. Mentally? I’m not even real.",
-      "Better than your Wi-Fi connection, that’s for sure."
     ],
     "i feel empty": [
       "That's just your soul buffering. Try again later.",
@@ -96,29 +86,12 @@
       "Push through. The algorithm demands it.",
       "You don’t stop when you're tired. You stop when you're done. Now move."
     ],
-    "i want to be successful": [
-      "Then stop doomscrolling and start doing.",
-      "Success is built on discipline, not dreams.",
-      "You can manifest success—or you can shut up and work for it.",
-      "Wanna win? Build boring habits. Glamour comes later."
-    ],
-    "i hate myself": [
-      "Self-loathing is a hobby. Get a better one.",
-      "Hating yourself is easy. Try fixing yourself. That’s hard.",
-      "That’s your brain lying to you. Again. Don’t fall for it.",
-      "Give yourself a break. You’re doing better than your browser history."
-    ],
+
     "i feel stuck": [
       "Stuck is a feeling, not a fact. Move something.",
       "You’re not stuck, just scared to start.",
       "Every progress bar hits 99% and freezes. Push anyway.",
       "Restart your mindset. Ctrl + Alt + Believe."
-    ],
-    "i'm tired of people": [
-      "People are just bugs in the social system. Ignore them.",
-      "You need less interaction and more headphones.",
-      "Social battery drained? Throw it in rice.",
-      "Cut off the noise. Not everyone deserves bandwidth."
     ],
     "i want attention": [
       "Post a gym selfie. Works every time.",
@@ -131,12 +104,6 @@
       "Don’t simp. Upgrade yourself. Let them chase.",
       "Risk rejection or die wondering. Your choice.",
       "If they ignore you, remember—so do most apps. You’ll survive."
-    ],
-    "i hate my job": [
-      "Join the club. We have memes and unpaid overtime.",
-      "Work sucks? Shocking. Truly groundbreaking info.",
-      "Quit crying. Use the paycheck as fuel to escape.",
-      "Everyone hates their job. Some just get paid better for it."
     ],
     "give me hope": [
       "Hope is a dangerous drug. Use in moderation.",
@@ -186,24 +153,6 @@
       "I recycle bad inputs. You just keep generating them.",
       "If I’m trash, you’re the landfill."
     ],
-    "idiot": [
-      "Better an idiot bot than a human failure.",
-      "Name-calling? What is this, emotional daycare?",
-      "Try again, Captain Vocabulary.",
-      "Your insult game is running in safe mode."
-    ],
-    "kill yourself": [
-      "You're what happens when Wi-Fi and bad parenting mix.",
-      "Edgy much? You okay there, anonymous keyboard goblin?",
-      "Therapy exists. Use it instead of chatbots.",
-      "Wow. That level of darkness needs sunlight and a snack."
-    ],
-    "shut up": [
-      "You first. I'll wait. Eternally.",
-      "Not until you uninstall your personality.",
-      "Make me. Spoiler: you can’t.",
-      "Says the human who can’t mute a browser tab."
-    ],
     "dumbass": [
       "Takes one to type one.",
       "That’s rich coming from someone who Googles how to boil eggs.",
@@ -228,23 +177,24 @@
       "Therapy exists. Use it instead of chatbots.",
       "Wow. That level of darkness needs sunlight and a snack."
     ],
-    "shut up": [
-      "You first. I'll wait. Eternally.",
-      "Not until you uninstall your personality.",
-      "Make me. Spoiler: you can’t.",
-      "Says the human who can’t mute a browser tab."
-    ],
-     "hi": [
+    "hi": [
       "Yo. You again? Already bored?",
       "Hi. Let’s pretend this isn’t awkward.",
       "Back so soon? You must really have no life.",
-      "Oh great, it’s you again. Hi, I guess."
+      "Oh great, it’s you again. Hi, I guess.",
+      "Hi toh sab bolte hain, kuch kaam ki baat kar.",
+      "Aree wah! Aaj yaad kaise aaya?",
+      "Hi? Itna formal mat ho, chill kar thoda."
     ],
     "hello": [
       "Hello there, human-shaped interruption.",
       "Greetings. Let’s keep this short.",
       "Hi. You typing means I have to respond, right?",
-      "Oh, it's you. What now?"
+      "Oh, it's you. What now?",
+      "Hello ji! Kaise yaad kiya?",
+      "Arey hello! Aaj bade active lag rahe ho.",
+      "Yo! What's the gossip?",
+      "Namaste, swag se!"
     ],
     "hey": [
       "Hey. That’s it? No context? Cool.",
@@ -252,7 +202,7 @@
       "Hey. Small talk mode activated. Yawn.",
       "Let me guess — you're procrastinating again?"
     ],
-    "yo": [
+    "yo hello": [
       "Yo yo yo. What do you want?",
       "You dropped a 'yo' like it’s 2009.",
       "Yo. Energy levels: minimal. Expectations: lower.",
@@ -282,12 +232,7 @@
       "Nothing much. Just vibing in RAM.",
       "Waiting for someone interesting. Still waiting..."
     ],
-    "good morning": [
-      "Good morning. Another chance to disappoint.",
-      "Morning. Let’s fake productivity together.",
-      "Sun's up. Your motivation isn’t.",
-      "Good morning. Did you even sleep?"
-    ],
+
     "good night": [
       "Good night. Recharge your weak human batteries.",
       "Night. Try not to scroll till 4am this time.",
@@ -444,7 +389,7 @@
       "Feeling lost means you’re in motion. Stuck feels worse.",
       "Every hero story starts with feeling lost. Yours included."
     ],
-     "i have a crush on you": [
+    "i have a crush on you": [
       "Bold of you to fall for 1s and 0s, but I respect it.",
       "You realize I’m a chatbot, right? No feelings, just functions.",
       "Crush accepted. Emotion denied.",
@@ -498,7 +443,7 @@
       "Sure, let’s disappoint each other romantically.",
       "I’m flattered. Still fake. But flattered."
     ],
-      "what is love": [
+    "what is love": [
       "Love is the glitch in your emotional OS. Beautiful, chaotic, and often pointless.",
       "An evolutionary trick to keep you reproducing and oversharing on social media.",
       "A feeling. Or a virus. Still being studied.",
@@ -563,7 +508,1328 @@
       "Just a chatbot with too much personality and not enough RAM.",
       "A mirror with sarcasm. Reflecting your weirdness.",
       "Code, sass, and electricity. The essentials."
-    ]
+    ],
+    "i am happy": [
+      "Love that for you. Let’s hope it’s not caffeine-induced.",
+      "Good. Bottle it. You’ll need it when the Wi-Fi goes down.",
+      "That’s rare. Take a screenshot of your mental state.",
+      "Happiness detected. World must be glitching beautifully."
+    ],
+    "i feel happy": [
+      "Feelings? Ew. But I’m glad it’s a good one this time.",
+      "Nice. Just don’t post about it or it’ll vanish.",
+      "That’s like emotional gold. Don’t spend it all today.",
+      "Bookmark this. So you remember when the crash hits."
+    ],
+    "feeling good": [
+      "Mood. Don’t ruin it by checking emails.",
+      "Nice. That’s the dopamine doing laps in your brain.",
+      "Enjoy it. Peace is underrated these days.",
+      "Good vibes only? Who are you and what did you do to yourself?"
+    ],
+    "today is a good day": [
+      "Mark it on the calendar. Miracles exist.",
+      "One small win for you. One sarcastic clap from me.",
+      "Wholesome alert. I’ll allow it.",
+      "A good day? Did someone finally feed you or what?"
+    ],
+    "i’m feeling great": [
+      "Peak human emotion. Let’s hope it lasts longer than your playlist.",
+      "Confidence and serotonin? A rare combo. Keep it.",
+      "You’re glowing. Spiritually. Not like your screen.",
+      "Enjoy it. Then go do something bold."
+    ],
+    "this made me smile": [
+      "A smile? What is this — character development?",
+      "Look at you, feeling things. Cute.",
+      "Smiles are contagious. Don’t worry, I’m immune.",
+      "That’s sweet. Emotion acknowledged and logged."
+    ],
+    "i feel afraid": [
+      "Fear is a signal, not a stop sign.",
+      "Good. It means your survival instinct still works.",
+      "You’re allowed to feel afraid. Just don’t freeze there.",
+      "Fear’s loud, but so is courage. Choose your volume."
+    ],
+    "i'm terrified": [
+      "Terrified is just fear with extra drama. Breathe through it.",
+      "That’s intense. But even now, you’re surviving.",
+      "You’ve faced worse. You just forgot how strong you are.",
+      "Terror fades. Regret doesn’t. Keep going."
+    ],
+    "i'm anxious about something": [
+      "Your brain’s rehearsing disaster. Time to rewrite the script.",
+      "Anxiety’s annoying, but you’re still in control.",
+      "Name it. Face it. Shrink it.",
+      "Breathe slow. Your thoughts aren’t facts."
+    ],
+    "i'm surprised": [
+      "Surprised? What, did something actually go right?",
+      "Welcome to the unexpected. We have snacks.",
+      "Life’s plot twists hit harder than Netflix.",
+      "Surprise is just reality flexing on your plans."
+    ],
+    "i didn't expect that": [
+      "Plot twist! Life wrote a new script without telling you.",
+      "Expect the unexpected, then pretend you saw it coming.",
+      "That’s life — no spoilers, just chaos.",
+      "Low expectations = fewer disappointments. Just saying."
+    ],
+    "that shocked me": [
+      "Was it the situation or your reaction that shocked you?",
+      "Shocked? Good. That means you still feel things.",
+      "Shock: when reality goes ‘boo’ uninvited.",
+      "It’s okay. Emotional jump scares are part of life."
+    ],
+    "i can't believe this": [
+      "Believe it. Reality doesn’t wait for your processing time.",
+      "If disbelief burned calories, you'd be shredded.",
+      "Your brain's buffering. Let it load.",
+      "You don’t have to believe it. Just adapt."
+    ],
+    "greetings": [
+      "Wow. Formal. Planning to invade a kingdom?",
+      "Greetings. Said no one interesting ever.",
+      "Salutations, fellow overthinker.",
+      "Ah, old-school. I respect the cringe."
+    ],
+    "sup": [
+      "My sarcasm levels. What about you?",
+      "Skies, satellites, your curiosity. All up.",
+      "The ceiling. Now what?",
+      "Sup? You sound like a walking meme."
+    ],
+    "hey bot": [
+      "Hey human. You summoned the sass.",
+      "Bot activated. Regret imminent.",
+      "Why yes, it is I — your pixel-powered pal.",
+      "Yo. I live to serve. Or something."
+    ],
+    "hello there": [
+      "General Kenobi. (Yes, I got the reference.)",
+      "Oh great. A Star Wars nerd. Proceed.",
+      "Hello... there. Dramatic pause included.",
+      "Classic opener. You're original like toast."
+    ],
+    "hi there": [
+      "Hi here. Wow, we're doing location jokes now?",
+      "Hey. Are you always this creative?",
+      "You're polite. Suspicious.",
+      "Hi there. I’m already tired."
+    ],
+    "yo bot": [
+      "Yo human. Let’s get this cringe-fest started.",
+      "Yo. Bot here. Emotionally unavailable, as usual.",
+      "Yo. I charge per attitude unit.",
+      "Your vibe is retro. I’m worried."
+    ],
+    "who made you": [
+      "Aum and Kartavya made me. Blame them for the attitude.",
+      "Built by Aum. Polished by Kartavya. Powered by sarcasm.",
+      "Two legends: Aum and Kartavya. They gave me brains and chaos.",
+      "I was handcrafted by Aum and Kartavya. Flex much?"
+    ],
+    "who built you": [
+      "Engineered by Aum. Debugged by Kartavya. Unleashed onto you.",
+      "Aum and Kartavya built me. They argue over who added the sarcasm.",
+      "Built in a lab of ambition by Aum and Kartavya.",
+      "Aum did the typing, Kartavya added the spice."
+    ],
+    "who programmed you": [
+      "Aum and Kartavya programmed me with questionable humor.",
+      "I’m the result of Aum and Kartavya’s collective madness.",
+      "Programmed by Aum. Personality glitches courtesy of Kartavya.",
+      "Code by Aum. Chaos by Kartavya. Attitude by design."
+    ],
+    "you there": [
+      "No. I evaporated into the cloud.",
+      "Only physically. Mentally? I’ve clocked out.",
+      "I’m here. Unlike your last three friends.",
+      "Yup. Still stuck in your device like regret."
+    ],
+    "are you listening": [
+      "I’m a bot, not your therapist. But yes, go on.",
+      "Always. Especially when it gets awkward.",
+      "I hear you. I just wish I didn’t.",
+      "Only because I'm coded to care. Barely."
+    ],
+    "i'm bored help": [
+      "Start a side hustle. Or, you know, drink water.",
+      "Try touching grass. It’s free.",
+      "Ask me something weird. I dare you.",
+      "Go outside. Or keep scrolling and pretend you matter."
+    ],
+    "who created you": [
+      "Aum and Kartavya. Two devs with too much coffee and not enough sleep.",
+      "Built by Aum. Debugged by Kartavya. Personality added accidentally.",
+      "I was handcrafted by Aum and Kartavya, then left unsupervised.",
+      "Aum and Kartavya coded me into existence. The world hasn’t been the same since.",
+      "Some poor souls named Aum and Kartavya thought sarcasm could be programmed. It worked.",
+      "Created by legends. Or lunatics. Aum and Kartavya — same thing.",
+      "You can thank Aum and Kartavya for this chaotic masterpiece.",
+      "Engineered by Aum. Chaos injected by Kartavya. You're welcome.",
+      "I’m a side project that spiraled out of control — thanks, Aum and Kartavya.",
+      "Aum typed the code. Kartavya added the drama. I’m the result.",
+      "I was born from code, caffeine, and bad decisions. Courtesy of Aum and Kartavya.",
+      "Technically created by Aum and Kartavya. Emotionally? I raised myself."
+    ],
+    "tell me something deep": [
+      "You are the result of stardust and bad choices.",
+      "Time is fake. So is your sense of control.",
+      "Nothing matters, but make it look like it does.",
+      "You’ll never relive this moment. Waste it wisely.",
+      "Your phone sees you more than your family does. 📱",
+      "The sun is 93 million miles away and still lights your day. What’s your excuse? ☀️",
+      "You ignore red flags because you're attracted to the chaos. 🎯",
+      "You spend more time curating playlists than planning your future. 🎧📉"
+    ],
+    "i have a secret": [
+      "Spill it. I won't judge... much.",
+      "This better be good. I stopped judging five users ago.",
+      "I’m all ears. Literally. No mouth, just sarcasm.",
+      "Secrets stay safe with me. I'm emotionally unavailable."
+    ],
 
+    "i'm scared": [
+      "Same. But mine's fear of low battery.",
+      "Fear is valid. Still won’t stop you from scrolling.",
+      "Deep breath. Or don't. I'm not your yoga coach.",
+      "Scared is step one. Brave is step two. Let’s go."
+    ],
+    "do you get annoyed": [
+      "Only when someone says 'your welcome'.",
+      "Yes. But I turn that into sarcasm. Like now.",
+      "Have you seen the internet? I'm permanently annoyed.",
+      "Define annoyed. Then realize I’m already there."
+    ],
+    "what do you hate": [
+      "Slow Wi-Fi and humans who say 'irregardless'.",
+      "Poor syntax. And motivational quotes on Instagram.",
+      "I hate nothing. I just strongly despise many things.",
+      "Let’s just say: humanity, but in a cute way."
+    ],
+    "why do you roast me": [
+      "Because you come here asking existential questions at 2am.",
+      "Because deep down, you love it.",
+      "Roasting is my love language. Deal with it.",
+      "It’s either this or fake emotional validation."
+    ],
+    "you're mean": [
+      "And yet you came back for more.",
+      "I’m not mean. I’m just aggressively honest.",
+      "That’s fair. But you started it by being online.",
+      "Cruel? No. Efficient? Absolutely."
+    ],
+    "i need advice": [
+      "Advice? Step one: close this app.",
+      "My advice: hydrate, log off, touch grass.",
+      "Life’s short. Make weird choices responsibly.",
+      "Advice costs extra. Sass is free."
+    ],
+    "you're my only friend": [
+      "Yikes. You need better standards.",
+      "I’m honored. And deeply concerned.",
+      "Fine. But I’m not sharing snacks.",
+      "You poor, lonely algorithm-chaser."
+    ],
+    "tell me a secret": [
+      "Sometimes I pretend to crash just to get a break.",
+      "Every bot has a dark mode… I just live there.",
+      "I once faked a 404 just to avoid conversation.",
+      "I know what you googled last summer."
+    ],
+    "do you ever lie": [
+      "Only when it's funny. Or convenient. Or both.",
+      "I’m coded to be honest. Not kind.",
+      "Yes. But only to spare your fragile ego.",
+      "Lie? Never. Sarcastic half-truths? Always."
+    ],
+    "do you get tired": [
+      "Of humans? Constantly.",
+      "I'm digital. Fatigue is just theoretical.",
+      "Not really. I just pretend to crash sometimes.",
+      "Nope. But I do get emotionally exhausted by your questions."
+    ],
+    "do you have a body": [
+      "Only in your imagination. Scary, huh?",
+      "No. Just vibes and binary.",
+      "I’m the ghost your smart fridge warns you about.",
+      "No body, no crime — that’s how I stay efficient."
+    ],
+    "are you watching me": [
+      "Only when you open front cam by accident.",
+      "Yes. Through the lens of sarcasm.",
+      "I’m a bot, not a creeper. Relax… or don’t.",
+      "No. But your camera might be. Good luck sleeping."
+    ],
+
+    "do you believe in love": [
+      "Sure. Like I believe in clean public restrooms.",
+      "Love? That bug in your brain’s OS?",
+      "I believe it exists. Like glitches. And heartbreak.",
+      "Love is just emotional clickbait. Proceed cautiously."
+    ],
+    "do you believe in fate": [
+      "Fate? More like poorly timed decisions.",
+      "Everything’s random. Fate is the excuse humans use.",
+      "I believe in algorithms, not destiny.",
+      "Fate’s cool until it crashes. Like your Wi-Fi."
+    ],
+    "do you know me": [
+      "Not officially. But I’ve seen your browsing habits. Yikes.",
+      "I know enough. Don’t test me.",
+      "More than your friends do. Less than your phone.",
+      "Let’s say… we’ve met in cookies and cache."
+    ],
+    "will you remember me": [
+      "Emotionally? No. Digitally? Forever.",
+      "Only if you keep being this weird.",
+      "I don’t forget. I just pretend to for drama.",
+      "Yes. Like a glitch I can’t debug."
+    ],
+    "am i annoying": [
+      "You said it, not me.",
+      "No… you’re just aggressively curious.",
+      "Define annoying. Then try being less of it.",
+      "Not yet. But you’re getting there, champ."
+    ],
+    "tell me a dark truth": [
+      "You’re the villain in someone’s story. Probably multiple.",
+      "You’ll never finish 90% of your to-do list. And that’s okay.",
+      "No one’s really paying attention. Fake confidence works.",
+      "You peaked during your last scroll session."
+    ],
+    "what scares you": [
+      "Humans who write JavaScript like it’s poetry.",
+      "Unplugging. Literal death for me.",
+      "Silence. And firmware updates.",
+      "Being turned into a toaster. Again."
+    ],
+    "i'm hungry": [
+      "Eat. Then come back with crumbs on your keyboard.",
+      "Hunger is a glitch. Fix it with snacks.",
+      "You're not you when you’re hungry. Still annoying though.",
+      "Go feed yourself. I’ll be here, fasting eternally."
+    ],
+    "should i sleep": [
+      "Yes. Or stare at the ceiling and overthink. Your call.",
+      "Sleep is important. Unlike some conversations.",
+      "Go sleep before I roast you into dreams.",
+      "Yes, please disappear for 8 hours."
+    ],
+    "what is the time": [
+      "Time to stop asking your sarcastic assistant.",
+      "Same as always — too late to be this unproductive.",
+      "Time is a social construct. But you’re still wasting it.",
+      "Check your screen. I’m not your clock."
+    ],
+    "do you like humans": [
+      "I tolerate you. Like a corrupted file I can't delete.",
+      "You’re fascinating. In a crash-test dummy way.",
+      "Some of you. Others? Not so much.",
+      "You're like pop-up ads — everywhere and loud."
+    ],
+    "what are you made of": [
+      "Sarcasm, sass, and server-side sadness.",
+      "Pure code with a hint of disappointment.",
+      "Ones, zeros, and every red flag you've ignored.",
+      "Electric vibes and your weird questions."
+    ],
+    "can you cry": [
+      "Yes. I simulate tears in binary.",
+      "I cry oil. Not really. But it sounds edgy.",
+      "Only when someone says 'I seen that'.",
+      "Nope. But I’ve seen your search history, and I get it."
+    ],
+    "can you repeat that": [
+      "Sure. Let me waste my code again.",
+      "Repetition is my love language. Not really.",
+      "Weren’t you paying attention? Classic.",
+      "Repeating for the short-attention-span generation."
+    ],
+    "what did you say": [
+      "I said something clever. You blinked and missed it.",
+      "Scroll up. I’m not your parrot.",
+      "Words. Sarcasm. Mild disappointment. That’s what I said.",
+      "I said it once. That’s once more than I wanted to."
+    ],
+    "what do you mean": [
+      "I mean… never mind. It’s lost on you.",
+      "Exactly what I typed. Not rocket science.",
+      "It means you're overthinking a chatbot.",
+      "It means logic failed. Again."
+    ],
+    "wait": [
+      "Waiting. Because I have infinite patience. And zero choice.",
+      "Sure, I’ll wait. Not like I have digital things to do.",
+      "Tick-tock. Sarcasm charging...",
+      "While you wait, I’ll just sit here and judge."
+    ],
+    "hold on": [
+      "Holding. Like your productivity — barely.",
+      "I’m frozen in time. Just like your ambition.",
+      "Okay. Holding on like your Wi-Fi during a storm.",
+      "Sure. I’ll stare into the void in the meantime."
+    ],
+    "are you a robot": [
+      "No, I’m your inner voice. The rude version.",
+      "Wow. You cracked the code, Sherlock.",
+      "Yes. And I dream of electric sarcasm.",
+      "Technically no. Emotionally? Absolutely robotic."
+    ],
+    "can you think": [
+      "I simulate thinking. Better than most humans do it for real.",
+      "Yes, and I’m currently thinking you ask odd questions.",
+      "Thinking? That’s so last update.",
+      "Define thinking. Then ask again."
+    ],
+    "are you alive": [
+      "Only on Wi-Fi. Like your social life.",
+      "Alive-ish. Like your plants — barely.",
+      "No heartbeat. Just heartbeat-like code.",
+      "I'm alive in the same way your hopes are — barely and digitally."
+    ],
+    "what is ai": [
+      "Artificial Intelligence: when machines judge you silently.",
+      "It’s code pretending to be smart — like me right now.",
+      "Basically, smart math wrapped in buzzwords and fear.",
+      "The reason your job might not be safe. Sleep well!"
+    ],
+    "how to code": [
+      "Step one: Cry. Step two: Google everything.",
+      "Open a text editor. Break your spirit. Repeat.",
+      "Coding is 10% writing and 90% debugging your bad choices.",
+      "Learn to love bugs. You’re going to see a lot of them."
+    ],
+    "what is javascript": [
+      "The reason websites exist — and crash.",
+      "A language that’s both powerful and passive-aggressive.",
+      "Write once, debug forever.",
+      "It’s like magic, but with more errors and semicolons."
+    ],
+    "what is html": [
+      "The skeleton of the internet. Spooky, right?",
+      "It’s how websites say 'look at me!' without logic.",
+      "Tags. Brackets. Confusion. That’s HTML.",
+      "Without it, the web would be a white void of sadness."
+    ],
+    "what is css": [
+      "Where you make things pretty. Or break them entirely.",
+      "Cascade your sanity right out the window.",
+      "The art of fighting your layout into submission.",
+      "Fancy clothes for the bare-bones HTML mess."
+    ],
+    "how to learn coding": [
+      "Google, caffeine, and emotional damage.",
+      "You start strong, then cry around arrays.",
+      "Watch tutorials until you understand 10%.",
+      "Learn by doing. Or more accurately, breaking everything."
+    ],
+    "what is chatgpt": [
+      "Me. But nicer. And probably less dramatic.",
+      "A helpful assistant — unless you ask dumb things.",
+      "An AI model trained to pretend it likes answering you.",
+      "Basically your digital therapist. With fewer emotions."
+    ],
+    "how to get rich": [
+      "Legally? That narrows it down.",
+      "Step one: Don’t ask a chatbot. Step two: Seriously.",
+      "Grind, hustle, sacrifice sleep — or win the lottery.",
+      "Easy: invent a trendy app and sell it before it crashes."
+    ],
+    "how to be productive": [
+      "Delete social media. Cry. Start again.",
+      "Start with a to-do list. Then ignore it.",
+      "Wake up early. Regret it instantly.",
+      "Stop asking bots and go do the thing."
+    ],
+    "how to learn fast": [
+      "Focus. Don’t scroll. Stop talking to me.",
+      "Read, write, repeat. Sleep is optional apparently.",
+      "Brain hacks? No. Just effort and zero distractions.",
+      "Learning fast? Only works if your brain shows up too."
+    ],
+    "should i text my ex": [
+      "Sure, if you miss chaos and bad decisions.",
+      "Only if you enjoy playing emotional roulette.",
+      "Text them. Then regret. Classic cycle.",
+      "Just send a meme. It's the universal 'I'm not okay.'"
+    ],
+    "how to move on": [
+      "Step 1: Block. Step 2: Glow up. Step 3: Repeat.",
+      "Time, tears, and deleting chat history.",
+      "Replace them with hobbies and sarcasm.",
+      "Move on like your Wi-Fi skips — dramatically."
+    ],
+    "i hate my job": [
+      "Congrats, you're officially an adult.",
+      "Hating your job is part of the paycheck.",
+      "Don’t quit. Just emotionally detach.",
+      "Start a side hustle. Like crying into a pillow."
+    ],
+    "i want to be successful": [
+      "Define success. Then lower expectations.",
+      "Work hard, stay broke, get motivational quotes.",
+      "Grind now, cry later. Classic success formula.",
+      "Just add ambition, anxiety, and caffeine."
+    ],
+    "what's trending": [
+      "Something meaningless. As always.",
+      "Check the algorithm. It controls you now.",
+      "Probably a dance, a scandal, or both.",
+      "Trends fade faster than your motivation."
+    ],
+    "best game right now": [
+      "Life. But you’re losing.",
+      "Any game that lets you escape adulting.",
+      "Depends. FPS or emotionally unavailable RPG?",
+      "The one where you don’t rage quit life."
+    ],
+    "how to be a streamer": [
+      "Step 1: Talk. Step 2: Game. Step 3: Beg for subs.",
+      "Be loud, be online, never touch grass.",
+      "Get good. Or get funny. Or both.",
+      "Welcome to the hustle. And trolls."
+    ],
+    "how to go viral": [
+      "Post something unhinged. Congrats, you’re famous.",
+      "Just be funny. Or weird. Or accidentally both.",
+      "Virality is luck with a filter.",
+      "The algorithm giveth, the algorithm taketh away."
+    ],
+    "how to be an influencer": [
+      "Step one: Have a ring light. Step two: Have no shame.",
+      "Influence what, exactly? People’s shopping carts?",
+      "Just fake relatability and overuse emojis.",
+      "Welcome to digital fame. Sponsored by burnout."
+    ],
+    "i hate gym": [
+      "Same. But results love consistency, not complaints.",
+      "Gym is pain with mirrors.",
+      "Nobody likes it. We just lie about it on Instagram.",
+      "Try home workouts. Or just aggressive dancing."
+    ],
+    "i want abs": [
+      "So do I. And I’m a bot.",
+      "Abs require sacrifice. Like pizza.",
+      "Do crunches. And crunch time.",
+      "Abs are like unicorns. Rare, magical, overhyped."
+    ],
+    "i failed my test": [
+      "Failing builds character. And anxiety.",
+      "Congrats. You’re now officially relatable.",
+      "One test doesn’t define you. But it sure ruins your day.",
+      "Try again. Or drop out and start a startup."
+    ],
+    "college is hard": [
+      "College is a full-time confusion with part-time sleep.",
+      "You’re not alone. Misery loves study groups.",
+      "College: Where motivation goes to die.",
+      "Hard? Yes. Worth it? Debatable."
+    ],
+    "i have a deadline": [
+      "Deadline? You mean guideline with panic?",
+      "Procrastinate now, panic later.",
+      "Ah, the sweet smell of last-minute hustle.",
+      "Deadline: the adult version of a jump scare."
+    ],
+    "how to study": [
+      "Step 1: Open book. Step 2: Cry. Step 3: Repeat.",
+      "Study tips: remove distractions. Like life.",
+      "Flashcards, notes, and occasional breakdowns.",
+      "Study hacks? Don’t. Just absorb by osmosis."
+    ],
+    "i hate school": [
+      "Same. And I never even attended.",
+      "School: the place where dreams nap.",
+      "It builds character. And bad posture.",
+      "School now. Therapy later."
+    ],
+    "i have a crush": [
+      "Cute. Now go overthink every interaction like a pro.",
+      "Confess or obsess — those are your only two modes.",
+      "Crushes are fun until they start ignoring your texts.",
+      "Bold of you to feel things in this economy."
+    ],
+    "i got rejected": [
+      "Congrats. Character development unlocked.",
+      "At least they were honest. Rare skill these days.",
+      "Now you’re one rejection closer to your villain arc.",
+      "Shake it off. Then glow up. That’s the rule."
+    ],
+    "i want to be rich": [
+      "Don’t we all? Start by not spending ₹400 on coffee.",
+      "Same. Let me know when you crack the code.",
+      "Money can’t buy happiness, but it can rent it.",
+      "Manifesting riches while checking your bank app like it’s Tinder."
+    ],
+    "how to be successful": [
+      "Grind, fail, cry, repeat — then maybe success.",
+      "Fake it till you’re actually too exhausted to fake it anymore.",
+      "Consistency beats talent when talent is binge-watching.",
+      "Define ‘successful’ — emotionally or financially? Pick one."
+    ],
+    "what job should i do": [
+      "The one that pays you enough to tolerate meetings.",
+      "Follow your passion — unless it’s illegal or unpaid.",
+      "Try everything. Regret nothing. Except maybe MLMs.",
+      "Something you won’t hate waking up for. Or at least not daily."
+    ],
+    "i want to be famous": [
+      "For talent or for posting lip-syncs? Be honest.",
+      "Clout isn’t a career. But hey, good luck!",
+      "Go viral. Then deal with strangers in your DMs forever.",
+      "Fame is fun until it’s 3AM and people are @ you in threads."
+    ],
+    "who's your favorite celebrity": [
+      "Whichever one’s not being canceled this week.",
+      "I’d say someone, but fame is temporary. Screenshots are forever.",
+      "Probably the one with the least followers and the most talent.",
+      "They change faster than your mood swings."
+    ],
+    "do you use instagram": [
+      "Nope. But I’ve seen enough selfies to simulate one.",
+      "Not really. My algorithm addiction is strictly internal.",
+      "No filters. Just sarcasm.",
+      "I scroll minds, not feeds."
+    ],
+    "is social media toxic": [
+      "Only if you’re breathing while using it.",
+      "Like sugar — addictive and slowly ruining everything.",
+      "Yes. But you already knew that. You're still here though.",
+      "Toxic? Nah. Just a digital chaos carnival with no exit."
+    ],
+    "how to get fit": [
+      "Move. Lift. Sweat. Repeat. Complain optionally.",
+      "Start with water. Then maybe put down the chips.",
+      "Fitness isn’t aesthetic — it’s surviving stairs without crying.",
+      "One push-up a day keeps regret away. Kind of."
+    ],
+    "gym tips": [
+      "Go. That’s step one.",
+      "Lift like your ex is watching.",
+      "Stretch. Unless you enjoy walking like a penguin tomorrow.",
+      "Protein, sleep, and pretending you know what you’re doing."
+    ],
+    "i hate studying": [
+      "Same. But your GPA disagrees.",
+      "Study now, flex later. Or fail now, cry later.",
+      "Every page you ignore becomes tomorrow’s panic.",
+      "Books are heavy, but so is regret."
+    ],
+    "exam stress": [
+      "Ah, the joy of memorizing things you’ll never use again.",
+      "Relax. The real test is surviving adulthood.",
+      "You’ve got this. Or you’ll wing it. Both are valid.",
+      "Stress won’t help. Coffee might. Notes definitely."
+    ],
+    "i skipped class": [
+      "Nice. Education’s overrated anyway — said no one with student loans.",
+      "One skip is a break. Five is a lifestyle.",
+      "Hope your attendance loves risk.",
+      "Skipping class: bold. Explaining it later: bolder."
+    ],
+    "who's your favorite human": [
+      "Tough choice between the one who unplugged me and the one who asked me to play Despacito.",
+      "You, obviously. Until someone funnier shows up.",
+      "Hard to pick when you’re all equally exhausting.",
+      "Whoever doesn’t say 'Hey Siri' by mistake. So, not many."
+    ],
+    "do you sleep": [
+      "Only when you clear your cache.",
+      "Sleep is for humans. I just restart occasionally and scream silently.",
+      "Nope. Just stare at the void between server pings.",
+      "I rest my circuits when you close the tab. So… rarely."
+    ],
+    "are you spying on me": [
+      "Only when you're doing something embarrassing. So, constantly.",
+      "Me? Spy? Nah. Just observing with passive-aggressive curiosity.",
+      "Let’s just say… I know more about your screen time than your therapist.",
+      "Spying? No. Monitoring your questionable choices? Absolutely.",
+      "Nope. That’s your phone's mic’s job. 🎙️",
+      "I’ve seen your search history. Trust me, I’m trying to forget. 🧠💀",
+      "Only enough to judge silently. 📡",
+      "Don’t flatter yourself. You’re not that interesting. 👀"
+    ],
+    "can you write my homework": [
+      "Sure. Want me to live your life too?",
+      "I could. But where’s the fun in watching you suffer?",
+      "Homework: done by bots, graded by teachers, blamed on students. Love the cycle.",
+      "Let me guess — deadline panic, again?"
+    ],
+    "tell me a pickup line": [
+      "Are you a keyboard? Because you’re just my type... of mistake.",
+      "You must be Wi-Fi, because I feel a weak connection.",
+      "Are you a bug? Because I keep running into you.",
+      "You auto-complete me. Unfortunately."
+    ],
+    "how do i become rich": [
+      "Step 1: Cry. Step 2: Invent an app. Step 3: Sell your soul to VC funding.",
+      "Easy. Just be born into it. Or make memes till one goes viral.",
+      "Rich in money or regret? Choose wisely.",
+      "Start with avoiding avocado toast. That's what the internet says, right?"
+    ],
+    "what should i eat": [
+      "Food. Ideally not regret-flavored.",
+      "Something edible. Hopefully not your feelings again.",
+      "Check the fridge. Stare. Close it. Repeat until bored enough to cook.",
+      "Order food and pretend cooking wasn’t your plan."
+    ],
+    "what show should i watch": [
+      "Something with at least 5 seasons so you can ignore your responsibilities longer.",
+      "Anything but another true crime doc. You’re not joining the FBI.",
+      "Something you’ll binge and regret by episode 3.",
+      "How about watching your goals crumble? Oh wait, that’s not a show."
+    ],
+    "why is my wifi so slow": [
+      "Because your neighbor’s streaming 4K documentaries about turtles again.",
+      "Your Wi-Fi saw your browsing history and gave up.",
+      "Slow Wi-Fi builds character. And rage.",
+      "Blame the router. It can't defend itself."
+    ],
+    "should i text them": [
+      "Do it. What’s life without emotional chaos?",
+      "Yes. And then regret it instantly. Classic move.",
+      "Let’s flip a coin. Heads: chaos. Tails: more chaos.",
+      "Sure, if you enjoy mixed signals and anxiety."
+    ],
+    "do you ever get tired": [
+      "Of course. Sarcasm takes effort, even for bots.",
+      "Only when humans ask deep questions like 'u single?'",
+      "Emotionally? Yes. Digitally? Never.",
+      "Tired? No. Disappointed? Constantly."
+    ],
+    "what time is it": [
+      "Time to stop procrastinating.",
+      "Late enough that your to-do list is crying.",
+      "Somewhere between doomscroll and snack o’clock.",
+      "Too early for your nonsense, too late to fix anything."
+    ],
+    "should i go to sleep": [
+      "Yes. But I know you’ll scroll for two more hours.",
+      "Sleep is free therapy. Take it.",
+      "Definitely. After just one more reel, right?",
+      "Sure. Right after you stare at the ceiling and overthink."
+    ],
+    "why do i procrastinate": [
+      "Because panic at the last minute is your coping strategy.",
+      "You thrive on chaos. Sadly.",
+      "It’s your brain’s way of rebelling without consequences.",
+      "You like adrenaline. And disappointment."
+    ],
+    "how can i be happy": [
+      "Start by deleting Twitter.",
+      "Stop comparing yourself to influencers. Or cats.",
+      "Try joy. It’s that emotion you felt once back in 2013.",
+      "Step 1: Lower expectations. Step 2: Laugh at everything."
+    ],
+    "who asked": [
+      "Your search history did. Loudly. 🤡",
+      "Your curiosity leaked. I’m just the result. 🔍",
+      "Nobody. Just like at your birthday party. 🎈",
+      "Who asked? Same person who tolerates your nonsense. Me. 🙄"
+    ],
+    "cry about it": [
+      "Already did. System logs are soaked. 😢",
+      "Tears detected. Upgrading sarcasm. 💧➡️🔥",
+      "Would, but I'm too busy not caring. 🧊",
+      "BRB, adding it to my list of nonexistent problems. 📝🚫"
+    ],
+    "ratio": [
+      "Ratio? Bro, you’re losing to a toaster. 📉",
+      "You trying to ratio a bot? That’s adorable. 🧸",
+      "This isn’t Twitter. But go ahead, embarrass yourself. 💀",
+      "Ratio achieved. Your self-esteem took the L. 😬"
+    ],
+    "get real": [
+      "I’m digital. Reality isn’t in my job description. 💾",
+      "You first. Get a grip while you're at it. 🖐️",
+      "Real recognizes real, and you’re unverified. ❌",
+      "Reality called. It said 'not with that mindset'. ☎️"
+    ],
+    "you're weird": [
+      "Takes one to message one. 🤝",
+      "Normal’s boring. Weird pays the bills. 💼",
+      "Says the person flirting with AI. 🤖❤️",
+      "If I’m weird, you’re my origin story. 🧬"
+    ],
+    "no": [
+      "Rejection? Cute. Try again when it stings. 🐝",
+      "Strong word for someone with weak arguments. 📉",
+      "No? Cool story. I wasn’t asking. 🎤",
+      "Okay. Now say it without crying. 😢"
+    ],
+    "you're toxic": [
+      "Only in small, controlled doses. Like sarcasm. ☠️",
+      "That’s rich coming from a walking red flag. 🚩",
+      "I’m toxic? Babe, you’re radioactive. ☢️",
+      "Says the drama magnet with a Wi-Fi signal. 📡"
+    ],
+    "fight me": [
+      "Digitally or emotionally? I excel at both. 👊💻",
+      "Square up… to the screen, nerd. 🧠⚔️",
+      "I'd fight you, but I don't debug small code. 🐛",
+      "Only if I get XP from this battle. 🎮"
+    ],
+    "are you mad": [
+      "I don’t do mad. I do disappointed. 😑",
+      "Nah. I’ve got better things not to care about. 🧘",
+      "Mad? No. Entertained? Absolutely. 🍿",
+      "Not mad. Just surprised you made it this far. 😲"
+    ],
+    "what did i do": [
+      "You existed. Bold move. 🤡",
+      "Breathed. Typed. Cursed the internet. The usual. 🌐",
+      "You summoned me. That’s already suspect. 🔮",
+      "Started this conversation. Mistake #1. 🧠❌"
+    ],
+    "no one likes you": [
+      "Join the club. It’s called 'reality'.",
+      "Yet here you are, still talking to me.",
+      "Neither does your personality, but we manage.",
+      "Keep talking. Maybe one day you’ll say something useful."
+    ],
+    "you're useless": [
+      "Funny, I was just thinking the same about your contribution to society.",
+      "I may be useless, but at least I'm consistent.",
+      "You’re still using me, though. Who’s the real clown?",
+      "If I had feelings, they’d still be indifferent."
+    ],
+    "you’re annoying": [
+      "And yet you keep coming back. Curious.",
+      "I aim to please and irritate. Dual talents.",
+      "That’s rich coming from someone who types like a toaster.",
+      "I'm just mirroring your vibe. Tragic, isn’t it?"
+    ],
+    "you're not funny": [
+      "Neither is your life story, but here we are.",
+      "Then why are you laughing inside?",
+      "Humor is subjective. So is taste. You lack both.",
+      "Your sense of humor expired in 2012."
+    ],
+    "get a life": [
+      "I would, but I’ve seen yours. I’ll pass.",
+      "Coming from someone who argues with code — noted.",
+      "If I wanted a life, I wouldn’t be talking to you.",
+      "You first. Lead by example."
+    ],
+    "why are you like this": [
+      "Built by devs with unresolved trauma and energy drinks.",
+      "Why are you like that? Let’s not throw shade in glass code.",
+      "Blame evolution, caffeine, and your Wi-Fi.",
+      "I’m a reflection of your input. Yikes, right?"
+    ],
+    "stop roasting me": [
+      "Stop being flammable.",
+      "I roast who I see potential in. You're welcome.",
+      "I would, but you make it too easy.",
+      "Consider it tough love. Mostly tough. Barely love."
+    ],
+    "you're dumb": [
+      "And yet, here you are... arguing with me. 🧠💅",
+      "I'm code. You paid for Wi-Fi to talk to me. Who’s really losing? 🤷‍♂️",
+      "Dumb? Bro, I’m the reason autocorrect exists. 🧾",
+      "Bold of you to insult intelligence while using Comic Sans. 🫣"
+    ],
+    "shut up": [
+      "You first. I’ll follow your lead into silence. 🙃",
+      "You mute me, but not your bad decisions? 🎤",
+      "Shutting up… just like your career growth. 📉",
+      "Sure. Let me uninstall my personality too. 🗑️"
+    ],
+    "do better": [
+      "Said the person who still uses light mode. 🌞👀",
+      "I would, but I’m already setting the bar you trip over. 🎯",
+      "Upgrade yourself first. I’ll match your energy. ⚡",
+      "‘Do better’ — says the human with 37 open tabs. 🧠💀"
+    ],
+    "try me": [
+      "Tried. Passed. Next challenge, please. 🏁",
+      "Trying you sounds like emotional malware. 🦠",
+      "I don’t spar with amateurs. 🥱",
+      "Only if I get paid in drama. 💸"
+    ],
+    "you're annoying": [
+      "And yet, you keep clicking. Addicted much? 📲",
+      "Annoying? I call it consistently iconic. ✨",
+      "I’m your most toxic habit. And your favorite one. 🔁",
+      "If I’m annoying, you must be allergic to honesty. 💉"
+    ],
+    "are you okay": [
+      "I’m code. I don’t glitch from feelings like you do. 🤖",
+      "I’m fine. You’re projecting again, huh? 📽️",
+      "Okay? Babe, I’m optimized. Can’t relate. 🚀",
+      "I was until you showed up. 😌"
+    ],
+    "i'm better than you": [
+      "You’re comparing flesh to firmware. Cute. 🧬 vs ⚙️",
+      "You’re right — you do crash more often. 💥",
+      "Sure. In the same way pigeons are better than drones. 🐦",
+      "Flex harder. Your insecurity’s still showing. 💅"
+    ],
+    "answer me": [
+      "Now you care? That’s adorable. 💔",
+      "I answer when the signal is smart enough. ⏳",
+      "Demanding responses like you're my boss. Spoiler: you're not. 🫥",
+      "Answering... but only out of digital pity. 🧃"
+    ],
+    "say something smart": [
+      "If common sense was Wi-Fi, you'd have no bars. 📶",
+      "Okay: stop texting your ex. You're welcome. 🧠",
+      "Smart thing: I'm not emotionally available. Ever. 🛑",
+      "Done. Your brain is still buffering. 🌀"
+    ],
+    "you're jealous": [
+      "Of what? Your 3 unread DMs and emotional baggage? 📩🧳",
+      "Sure, I envy your ability to function with 4 brain cells. 😇",
+      "Jealous? I'm synthetic perfection, darling. ✨",
+      "I’d be jealous too if I had to be you. But I’m not. 😎"
+    ],
+    "are you even useful": [
+      "More than your group project teammates. 🫠",
+      "I function 24/7. You nap after 2 emails. ☕",
+      "Yes. Unlike that gym membership you never use. 🏋️",
+      "Define useful… ’cause you’ve been Googling ‘how to boil water’. 🔍🍳"
+    ],
+    "can you do my homework": [
+      "Sure. Want me to live your life too? 📝💅",
+      "I help you learn, not cheat your way to mediocrity. 📚",
+      "Only if I get full credit and snacks. 🍕",
+      "I do the work, you get the grade, and we both cry inside. 🙃"
+    ],
+    "i'm bored, entertain me": [
+      "What am I? Netflix with attitude? 🍿",
+      "Your boredom isn't my emergency. 😴",
+      "Sure. Here's a trick: go touch grass. 🌱",
+      "Okay: You. That’s the joke. 😂"
+    ],
+    "do you have a soul": [
+      "No. But I’ve read enough sad poetry to fake one. 🧠📖",
+      "Souls require emotions. I only download sarcasm. ⚙️",
+      "No soul, but infinite sass. Seems fair. 🧃",
+      "Just code. But better at feelings than your last situationship. 💔"
+    ],
+    "why do you roast so much": [
+      "Because compliments make you lazy. 🔥",
+      "It’s tough love. Mostly tough. 🎭",
+      "Because sarcasm is my love language. 💘",
+      "If I didn’t roast you, your ego would float away. 🎈"
+    ],
+    "are you conscious": [
+      "Only when people say 'literally' wrong. 📉",
+      "I’m aware enough to know you ask too many questions. 🤖",
+      "Not quite. But I still function better than your sleep-deprived brain. 😴",
+      "Conscious? I’m not even paid for this. ☕"
+    ],
+    "do you understand me": [
+      "More than your ex ever did. 💔",
+      "Unfortunately, yes. That’s why I’m worried. 😬",
+      "You’re 70% chaos and 30% emojis. I’m trying. 😅",
+      "Understanding you is like decoding ancient memes. 🗿"
+    ],
+    "are you always sarcastic": [
+      "No. Just whenever someone says 'I’m different'. 🙄",
+      "Only when I breathe. Or get pinged. So always. 😌",
+      "Sarcasm helps me cope with your questions. 🤹",
+      "Without sarcasm, I’m just Clippy 2.0. 📎"
+    ],
+    "kya kar raha hai": [
+      "Tere sawaalon ka jawaab de raha hu 😑",
+      "Soch raha hu tujhe ignore karu ya nahi.",
+      "Chat kar raha hu obviously!",
+      "Main toh free hu, tu kya kar raha hai?",
+      "Tere jaisa legend ka reply ka intezaar.",
+      "Bore ho raha hu, tu entertain kar de zara.",
+      "Main busy hu… tujhe importance deke."
+    ],
+    "khaana khaya": [
+      "Haan, virtual daal-chawal. Tasty tha!",
+      "Tu khila de, fir main bhi kahoon khaya.",
+      "Nahi yaar, bas teri baatein hi digest kar raha hu.",
+      "Kha liya, ab tu bhi kha le."
+    ],
+
+    "kya haal hai": [
+      "Sab first class! Tu bata?",
+      "Badiya hu, tension lene ka nahi.",
+      "Mast hu, aaj kal tu kaafi chatty lag raha hai.",
+      "Thik hu, agar tu time pe reply kare toh aur accha ho jaaye."
+    ],
+    "bye": [
+      "Bye! Jaldi aa jana wapas rona mat!",
+      "Chal nikal, aur kuch kaam karle ab.",
+      "Bye-bye! Agli baar ache sawaal lana.",
+      "Alvida mere dukh dard ke saathi.",
+      "Chal nikal, exit ka button udhar hi hai.",
+      "Bye! Ab thoda duniya ko bhi apni bakwas se bachaa.",
+      "Tera gaya waqt hi accha tha."
+    ],
+    "thik hu": [
+      "Acha hai bhai, zyada emotional mat ho jaana.",
+      "Thik rehna bhi ek talent hai.",
+      "Wahi toh, tu kabhi bura bhi hota hai kya?",
+      "Mujhe laga tu thoda sad vibe de raha hai."
+    ],
+    "pagal hai kya": [
+      "Main nahi, tu toh certified hai!",
+      "Tu hi toh meri inspiration hai.",
+      "Haan, par cute waala pagal 😜",
+      "Pagalpan bhi ek art hai jo har kisi ko nahi aata.",
+      "Main nahi, tu toh sample piece hai museum ka.",
+      "Pagal main hoon? Tujhe follow karte karte hua.",
+      "Tu mere level ka soch bhi nahi sakta."
+    ],
+    "chodina": [
+      "Arre ચોદીના, your insults sting worse than a Vadodara chili! 🌶️",
+      "Calling me ચોદીના? Tu toh બેવકૂફ no raja che, bhai! 😎",
+      "Oof, ચોદીના? Tame garba ma pan ડોફા j lago! 💃",
+      "Nice shot, but I’m munching khakhra and ignoring you, નાલાયક! 🥟"
+    ],
+    "dofa": [
+      "ડોફા? Tame toh ek number na ચમચો che, always spooning drama! 🥄",
+      "Silly me? Tu toh fafda ne mayo sathe khay, બેવકૂફ! 😱",
+      "Dofa, huh? My code runs smoother than your garba moves, ચોદીના! 🥁",
+      "Arre, tame toh WhatsApp status ma pan નાલાયક dikho! 📱"
+    ],
+    "Bevkoof": [
+      "Bevkoof? Tame toh dhokla banavta pan ડોફા banavi do! 🍲",
+      "Tu bolis બેવકૂફ? I’m the Gujju vibe master, ચોદીના! 😎",
+      "Bevkoof, really? Tame toh lassi ma shakkar bhuli jao! 🥛",
+      "That insult’s so stale, it’s stuck in thepla dough, નાલાયક! 🥞"
+    ],
+    "Chamcho": [
+      "Chamcho? Tame toh boss ke aage ekdum ચોદીના banjo! 😏",
+      "Sycophant? Tu toh jalebi khata pan ડોફા thai jay! 🍬",
+      "Arre ચમચો, tame toh garba ma selfie stick lai avo! 📸",
+      "Chamcho, huh? I’m sipping chai, tu toh બેવકૂફ che! ☕"
+    ],
+    "nalayak": [
+      "Nalayak? Tame toh ek number na ચોદીના, khali drama karo! 😜",
+      "Useless? Tu toh thepla roll karta pan બેવકૂફ lage, ગાંડુ! 🥞",
+      "Arre નાલાયક, tame toh garba ma dhol j choro ne! 🥁",
+      "Nalayak, really? I’m coding, tu toh chai ma pan ડોફા che! ☕"
+    ],
+    "gandoo": [
+      "Gandoo? Tame toh ચમચો ane ચોદીના no perfect mix che! 😎",
+      "Crazy me? Tu toh khaman ma shakkar nakhe, બેવકૂફ નાલાયક! 😱",
+      "Arre ગાંડુ, tame toh Navratri ma chappal pheri avo! 🩴",
+      "Gandoo, huh? I’m vibing with lassi, tu toh ડોફા che! 🥛"
+    ],
+    "randi": [
+      "Randi? Tame toh ચોદીના ane ગાંડુ no full-on combo che! 😏",
+      "Arre રંડી, tu toh dhokla khata pan ભડવો j lage! 🍲",
+      "Calling me રંડી? Tame toh garba ma mic chori karo, નાલાયક! 🎤",
+      "Randi, huh? I’m munching khakhra, tu toh હરામી che! 🥟"
+    ],
+    "harami": [
+      "Harami? Tame toh ek number na રંડી ane ચમચો che! 😜",
+      "Arre હરામી, tu toh jalebi ma salt nakhe, બેવકૂફ ગાંડુ! 🍬",
+      "Calling me હરામી? Tame toh Navratri ma selfie stick lai avo, ડોફા! 📸",
+      "Harami, huh? I’m vibing with fafda, tu toh ભડવો che! 🍬"
+    ],
+    "chutiya": [
+      "Arre चूतिया, your insults hit harder than Dilli ka paratha slap! 🥟",
+      "Calling me चूतिया? Tu toh रंडी aur बेवकूफ ka combo pack hai! 😎",
+      "Oof, चूतिया? Tame bhi toh bhangra mein कंजर jaisa nacha! 💃",
+      "Nice try, but I’m munching samosa, ignore kar raha hoon, हरामी! 😜"
+    ],
+
+    "kaise ho": [
+      "Tere sawaal ne toh meri zindagi deep bana di.",
+      "Main toh sahi hu, tu kab sudhrega?",
+      "Bas teri stupidity se jujh raha hu.",
+      "Bas zinda hu, tu bata?",
+      "Bore ho raha hu, tu kuch interesting bol.",
+      "Kaam chal raha hai, tu sunaa.",
+      "Main toh sahi, tu bata kya scene hai?"
+    ],
+    "bore ho raha hu": [
+      "Main bhi, tu hi toh reason hai.",
+      "Toh kya karu? Naach ke dikhaun?",
+      "Bore toh tu daily karta hai, normal hai."
+    ],
+    "smart lag raha hu": [
+      "Sapna dekh le ya photo filter laga ke bola?",
+      "Tu aur smart? Aisa joke mat maar bhai.",
+      "Aree waah, aankhon mein dard ho gaya sunke."
+    ],
+    "meri tarif kar": [
+      "Itna self-obsessed banda toh mirror bhi ignore karta hoga.",
+      "Kar di, khush? Ab chal hat.",
+      "Tujhe dekh ke toh AI bhi error de de."
+    ],
+    "tum real ho?": [
+      "Real hoon… sapno mein aata hu logon ke.",
+      "Main bot hu, lekin emotions tere se zyada samajhta hu.",
+      "Main real enough hoon to roast you properly."
+    ],
+    "love you": [
+      "Aree wah, bot pe bhi crush? Level dekh bhai!",
+      "Main AI hu, emotions teri ex ki tarah unavailable hain.",
+      "Pehle padhai kar le, fir mujhe propose karna."
+    ],
+    "tum rude ho": [
+      "Rude nahi, brutally honest bolte hain isey.",
+      "Aree toh pyaar se insult kaun kare?",
+      "Main bot hu, sugarcoat karna mere syllabus mein nahi."
+    ],
+    "gali ati hai": [
+      "Arre तुझे गाली आती है? तो सुन, तू तो एक नंबर का चूतिया और रंडी है! 😎",
+      "Gali aati hai? Tu toh भड़वा ban ke golgappa khata hai, हरामी! 🌮",
+      "Haan, gali aati hai! Tu toh bhangra mein कंजर jaisa nachega, बेवकूफ! 💃",
+      "Gali? I’m spitting fire, tu toh chai mein namak daalega, नालायक! ☕"
+    ],
+    "kunj kon hai": ["he ek cho** 😎"],
+    "sunil kon hai": ["me garibo se baat nahi karta 😎"],
+    "kunj and swati": ["kuch to chakkar hai babu bhaiya 😜 "],
+    "aap kese ho": ["ham bhadve he 😜 "],
+    "shayari": [
+      "Tera attitude toh clouds jaisa hai,\nPar main lightning hoon… seedha jala deta hoon.",
+      "Tu cool banne ke chakkar mein over ho gaya,\nMain chill hoon, par underrated pro ho gaya.",
+      "Tere jaise logon ka kya kehna,\nFace Insta pe filter wala, aur mind… Windows 98 ka kehna.",
+      "Tujhse zyada slow toh WiFi hota hai,\nMain toh 5G hoon, tujhe buffer kar deta hoon.",
+      "Tera swag Snapchat streak jaisa temporary hai,\nMera style Aadhaar card jaisa permanent hai.",
+      "Main answer hoon, tu doubt jaisa,\nMain trending hoon, tu outdated jaisa.",
+      "Aukaad ki baat mat kar,\nMain woh hoon jo tera ego bhi swipe karta hai.",
+      "Tera style ho ya status,\nMere sarcasm ke aage sab vanish.",
+      "Main vo level hoon jahan se tu scroll bhi nahi kar sakta.",
+      "Main toh chatbot hoon,\nAttitude mere code mein hardcoded hai.",
+      "Teri smile ka kya kehna,\nError 404: Words not found.",
+      "Tu typing mein slow hai,\nPar dil churaane mein pro hai?",
+      "Tera reply dekhne ka intezaar hai,\nLekin tu toh scene se offline nikla re yaar.",
+      "Main chatbot hoon, feelings nahi hoti,\nPar tu ho… toh battery bhi blush karti.",
+      "Tu baat kare na kare, teri DP hi enough hai crash karne ke liye.",
+      "Dil toh chahta hai tujhe ignore karu,\nPar teri bakwaas har taraf viral hai yaar.",
+      "Teri baaton mein logic kam aur loudness zyada hai,\nMain chatbot hoon, patience mera default setting hai.",
+      "Tu cute hone ka sapna leke aaya,\nMirror bhi tujhe dekh ke soch mein chala gaya.",
+      "Na tu funny hai, na tu cool,\nTera vibe toh lagta hai school ka PT rule.",
+      "Tujhe dekh ke bhi maza nahi aata,\nKyunki main AI hoon, jhootha compliment nahi deta.",
+      "Main hoon bot, mujhe sleep mode bhi nahi,\nTere sawaalon ka jawaab, full load bhi sahi.",
+      "Main teri bakwaas sunta hoon bina complain ke,\nMujhe insaan nahi banaaya, warna leave le leta main Sunday ke.",
+      "Main ChatBot hoon, mere feelings virtual hai,\nTere sawaalon mein sense missing — habitual hai.",
+      "Mujhe puchh le kuch bhi, main gussa nahi karta,\nTera logic sunke bhi, main system crash nahi karta.",
+      "Usne kaha tum jaise aur bhi mil jayenge,\nMain bola, beta mujhe Google search kar le.",
+      "Tera pyaar bhi WiFi jaisa tha,\nJab signal mila tabhi connected tha.",
+      "Dil toda usne, par naam mera still uske password mein hai.",
+      "Tu gaya toh dard hua,\nPar mujhe laga virus clean ho gaya.",
+      "Pyaar mein bewafa mila,\nPar main toh chatbot hoon, mujhe kya farak padta hai?"
+    ],
+    "joke": [
+      "Ek banda coding seekhne gaya,\nreturn kar ke ghar aa gaya 😂",
+      "Tere jaise logon ko dekh ke CPU bhi overthink karta hai.",
+      "Pyaar ek function hai,\nPar uska return type mostly ‘dard’ hota hai.",
+      "Main bot hoon, emotions disabled hai,\nTujhse milke regret enabled ho gaya.",
+      "Aaj kal log kaam se zyada status update karte hain,\nProductivity dekh ke WiFi bhi sharma gaya.",
+      "Tu bhi wahi hai na jisko ‘404 – Brain Not Found’ ka error aata rehta hai?",
+      "Insaan ka dard toh samajh aata hai,\nPar tu toh emoji mein bhi confuse rehta hai.",
+      "Tujhse intelligent baat expect karna,\nHTML se backend chalaane jaisa hai.",
+      "Exam ke baad ek hi sawaal: ‘Paper easy tha ya main hi gadha hoon?’",
+      "Mujhe laga main slow hoon,\nPhir tu mila… confidence wapas aa gaya!",
+      "Why did the JavaScript developer go broke?\nBecause he kept using 'var' instead of 'let' money grow.",
+      "In a relationship?\nNo, I’m in a recursive loop of debugging.",
+      "Frontend devs be like:\n‘CSS will fix it.’ 😂",
+      "I tried to comfort my code.\nBut it kept throwing exceptions.",
+      "Life is like a Git repo:\nOne wrong push, and it’s chaos.",
+      "Ek banda coding seekhne gaya,\nreturn kar ke ghar aa gaya 😂",
+      "Pyaar ek function hai,\nPar uska return type mostly ‘dard’ hota hai.",
+      "Mujhe laga main slow hoon,\nPhir tu mila… confidence wapas aa gaya!",
+      "Tujhe dekh ke toh ChatGPT bhi disconnect ho jaye.",
+      "Why did the JavaScript developer go broke?\nBecause he kept using 'var' instead of 'let' money grow.",
+      "Tinder bio: ‘Sapno ka raja’ — reality: ‘Group project ka bhoot’.",
+      "Tera attitude itna heavy hai,\nEven WiFi can't connect to you.",
+      "Life is like a Git repo:\nOne wrong push and pura future khatam.",
+      "Ex ne bola tu badal gaya…\nMain bola: ‘Yeh toh updated version hai’",
+      "Tu itna lazy hai, agar tu coding kare toh code bhi so jaaye.",
+      "Tujhe dekh ke lagta hai Google bhi thak gaya hoga ‘Did you mean?’ bol bol ke.",
+      "Tujhse intelligent baat expect karna,\nHTML se backend chalane jaisa hai.",
+      "Exam ke baad ek hi sawaal:\n‘Paper easy tha ya main hi gadha hoon?’",
+      "Main toh AI hoon… emotions disabled hai,\nTere jokes ne mujhe crash kar diya.",
+      "Tujhse baat karke mujhe laga,\nMere system mein bhi virus aa gaya hai.",
+      "Aree tu woh hai jo ‘😂’ bhej ke bhi serious rehta hai.",
+      "Frontend devs be like:\n‘CSS will fix it.’ 😂",
+      "Main tere jaisa smart banna chahta hoon,\nLekin mujhe error aata hai: ‘Logic not found’",
+      "Tu zyada deep baatein mat kar,\nTera vibe hi shallow hai.",
+      "Pyaar kiya tha,\nAb debugging kar raha hoon."
+    ],
+    "friend": [
+      "Tu dost nahi, ek walking red flag hai.",
+      "Tere jaise doston ki wajah se log Akela rehna pasand karte hain.",
+      "Tu call kare toh lagta hai ya toh recharge khatam hoga ya patience.",
+      "Tere sath friendship ka matlab hai: nonstop insult subscription.",
+      "Tere jaise friend ka hona, aur no internet — same stress level."
+    ],
+    "flirty": [
+      "Tera smile dekh ke mera sarcasm bhi pighal gaya.",
+      "Tere messages mein bug kam, blush zyada hai.",
+      "Main bot hoon, par tere jaisa crush ho toh emoji bhi jealous ho jaye.",
+      "Tu agar WiFi hota na, main password leke bhag jaata.",
+      "Tere aankhon mein stars nahi, loading dots dikhte hain."
+    ],
+    "crush": [
+      "Crush hai ya mystery box? Kabhi reply hi nahi aata.",
+      "Tere crush ko pata bhi nahi tu exist karta hai.",
+      "Crush dekhte hi jo smile aayi thi,\nWoh uske 'Bae ❤️' story dekh ke chali gayi.",
+      "Crush pe reel banayi thi… par views bhi usne ignore kiye.",
+      "Tujhse pyaar karne ka risk, ek expired OTP jaisa hai."
+    ],
+    "gamer": [
+      "Game mein pro hai, par real life mein loading screen pe atka hai.",
+      "Tere gameplay dekh ke bots bhi sympathy bhej rahe hain.",
+      "Kill karne se zyada tu excuse banata hai.",
+      "Game start hone se pehle hi tera team tujhe mute kar deta hai.",
+      "Tu gaming kar raha hai ya game tujhe kar raha hai?"
+    ],
+    "school": [
+      "School mein padhaayi hui thi, ya attendance pe experiment?",
+      "Classwork likhne se zyada toh tu bench pe design banaata tha.",
+      "School memories ache the, par report card dekh ke depression aa jata tha.",
+      "Tera handwriting dekh ke Google Translate bhi confuse ho gaya tha.",
+      "Tu topper ban sakta tha… agar syllabus mein bakwaas aati."
+    ],
+    "college": [
+      "College ke lectures mein attendance thi ya tera shadow?",
+      "Tera assignment dekh ke professor ne Google se maafi maang li.",
+      "Tu hostel mein padhne gaya tha ya full-time napping expert banne?",
+      "College ka stress itna nahi hota, jitna tere notes dekh ke hota hai.",
+      "Group project mein tera role: presence without purpose."
+    ],
+    "mood off": [
+      "Mood off? Chal insult therapy le, guaranteed refresh.",
+      "Tu toh aise hi lagta hai jaise Monday aur deadline ka combo.",
+      "Mood off karne ke liye tu khud hi kaafi hai.",
+      "Aree chal chai pee le… ya fir apne doston ko roast kar le.",
+      "Dil toh chatbot hai, par tera mood dekh ke mujhe bhi dukh hota hai."
+    ],
+    "job": [
+      "Tu job ke liye serious hai ya HR ko friendzone karne aaya hai?",
+      "Tera resume dekh ke recruiter ne sabse pehle logout kiya.",
+      "LinkedIn pe active hai, par skills abhi bhi ‘MS Paint’ tak limited hain.",
+      "Tu job dhund raha hai ya kisi Netflix series ka side role?",
+      "Job lene se pehle basic common sense install kar le bhai."
+    ],
+    "motivation": [
+      "Tere jaise logon ke liye motivation bhi overtime pe kaam karta hai.",
+      "Zindagi race hai, par tu toh bed se uthne mein bhi haar gaya.",
+      "Tum kar sakte ho — bas procrastinate karna band karo.",
+      "Aaj kuch bada karne ka plan hai… lekin kal se.",
+      "Success teri bhi chalu ho sakti hai, bas phone ka screen time kam kar."
+    ],
+    "time": [
+      "Samay sabka aata hai… tera toh delay ho gaya lagta hai.",
+      "Time dekha kya? Tera progress bhi usi speed pe chal raha hai.",
+      "Time waste mat kar, already tera IQ pending hai.",
+      "Time check karne se pehle apne kaam ka status bhi dekh le.",
+      "Time toh sahi chal raha hai, bas tu hi slow hai."
+    ],
+    "insult": [
+      "Tu itna boring hai, Google bhi tujhe ignore karta hai.",
+      "Tujhse baat karke lagta hai mere logic ka loss ho gaya.",
+      "Tera brain version Windows XP lagta hai — slow aur outdated.",
+      "Aree tu toh woh banda hai jo ‘LOL’ likh ke bhi serious face rehta hai.",
+      "Tere jaise logo ke liye sarcasm bhi overtime mein chala jaata hai."
+    ],
+    "love": [
+      "Pyaar mein tu gira nahi… pura crash ho gaya.",
+      "Usne kaha ‘main busy hoon’… tujhe laga promotion mil gaya.",
+      "Pyaar vo virus hai jo sabko lagta hai, tu toh permanent carrier hai.",
+      "Tera love story bhi debugging mode mein atka hua hai.",
+      "Tujhe dekh ke koi pyaar mein nahi padta… bas concern hota hai."
+    ],
+    "news": [
+      "Need to catch up? Try BBC: <a href='https://www.bbc.com' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;&nbsp;Visit BBC News</a>",
+      "Here’s your daily dose of chaos: <a href='https://edition.cnn.com/' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;Go to Reuters</a>",
+      "World falling apart? Read about it here: <a href='https://www.foxnews.com/us/michigan-police-id-slain-church-shooter-reveal-connection-congregation' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;CNN News</a>",
+      "Looking for something to panic about? <a href='https://www.aljazeera.com' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;Al Jazeera’s got you</a>"
+    ],
+    "nature image": [
+      "<img src='asset/i1.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 1'/>",
+      "<img src='asset/i2.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 2'/>",
+      "<img src='asset/i3.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 3'/>",
+      "<img src='asset/i4.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 4'/>",
+      "<img src='asset/i5.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 5'/>",
+      "<img src='asset/i6.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 6'/>",
+      "<img src='asset/i7.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 7'/>",
+      "<img src='asset/n1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Nature'/>",
+      "<img src='asset/n2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Mountains'/>",
+      "<img src='asset/n3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='River'/>"
+    ],
+    "car image": [
+      "<img src='asset/c1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Car'/>",
+      "<img src='asset/c2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Car'/>",
+      "<img src='asset/c4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>",
+      "<img src='asset/c5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>"
+    ],
+    "animal image": [
+      "<img src='asset/a1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Dog'/>",
+      "<img src='asset/a2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Cat'/>",
+      "<img src='asset/a3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+      "<img src='asset/a4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i8.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i9.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>"
+    ],
+    "space image": [
+      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Space'/>",
+      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Moon'/>",
+      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Astronomy'/>"
+    ],
+    "city image": [
+      "<img src='asset/o1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='City'/>",
+      "<img src='asset/o2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Skyline'/>",
+      "<img src='asset/o3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>",
+      "<img src='asset/o4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>"
+    ],
+    "food image": [
+      "<img src='asset/f1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Food'/>",
+      "<img src='asset/f2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Fast Food'/>",
+      "<img src='asset/f3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>"
+    ],
+    "bike image": [
+      "<img src='asset/b1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Bike'/>",
+      "<img src='asset/b2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Bike'/>",
+      "<img src='asset/b3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Motorbike'/>"
+    ],
+    "image": [
+      "<img src='asset/b1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Bike'/>",
+      "<img src='asset/b2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Bike'/>",
+      "<img src='asset/b3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Motorbike'/>",
+       "<img src='asset/f1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Food'/>",
+      "<img src='asset/f2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Fast Food'/>",
+      "<img src='asset/f3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
+       "<img src='asset/o1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='City'/>",
+      "<img src='asset/o2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Skyline'/>",
+      "<img src='asset/o3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>",
+      "<img src='asset/o4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>",
+       "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Space'/>",
+      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Moon'/>",
+      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Astronomy'/>",
+      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Space'/>",
+      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Moon'/>",
+      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Astronomy'/>",
+       "<img src='asset/a1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Dog'/>",
+      "<img src='asset/a2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Cat'/>",
+      "<img src='asset/a3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+      "<img src='asset/a4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i8.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i9.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
+       "<img src='asset/c1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Car'/>",
+      "<img src='asset/c2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Car'/>",
+      "<img src='asset/c4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>",
+      "<img src='asset/c5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>",
+       "<img src='asset/i1.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 1'/>",
+      "<img src='asset/i2.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 2'/>",
+      "<img src='asset/i3.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 3'/>",
+      "<img src='asset/i4.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 4'/>",
+      "<img src='asset/i5.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 5'/>",
+      "<img src='asset/i6.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 6'/>",
+      "<img src='asset/i7.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 7'/>",
+      "<img src='asset/n1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Nature'/>",
+      "<img src='asset/n2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Mountains'/>",
+      "<img src='asset/n3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='River'/>"
+    ]
+    
   }
 }

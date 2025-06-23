@@ -2,13 +2,16 @@ let search = document.querySelector(".search");
 let enterIcon = document.querySelector(".enter-icon");
 let interaction = document.querySelector(".interaction");
 
-let chatData = {};
+
+let chatData = {
+    
+}
 
 //fetch
 fetch("grok_chatbot_expanded.json")
   .then((res) => res.json())
   .then((data) => {
-    chatData = data.grok;
+    chatData = data.grok ;
   });
 //fetch
 
@@ -47,12 +50,26 @@ function handleSend(e) {
     search.value = "";
     autoResize(search);
 
-    // let matchKey = Object.keys(chatData).find(key => key.includes(userInput))
     let matchKey = Object.keys(chatData).find((key) => userInput.includes(key));
 
     let botText = "Hmm... I didn't get that"; //default
 
-    if (matchKey) {
+    let now = new Date();
+    let time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+    let date = now.toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+    let day = now.toLocaleDateString('en-GB', { weekday: 'long' });
+    let year = now.getFullYear();
+
+    // Handle time/date/day/year dynamically
+    if (userInput.includes("time")) {
+      botText = `It's ${time}`;
+    } else if (userInput.includes("date")) {
+      botText = `Today is ${date}`;
+    } else if (userInput.includes("day")) {
+      botText = `It's ${day}`;
+    } else if (userInput.includes("year")) {
+      botText = `The year is ${year}`;
+    } else if (matchKey) {
       let responseArray = chatData[matchKey];
       botText = responseArray[Math.floor(Math.random() * responseArray.length)];
     }
@@ -60,8 +77,7 @@ function handleSend(e) {
     //bot
 
     let typing = document.createElement("div");
-    typing.className =
-      "rounded-[25px] text-white px-4 py-2 w-fit max-w-[60%] flex self-start text-wrap wrap-anywhere bg-[#313031]";
+    typing.className = "rounded-[25px] text-white px-4 py-2 w-fit max-w-[60%] flex self-start text-wrap wrap-anywhere bg-[#313031]";
     typing.innerHTML = `<h1 class="flex items-center">Typing...</h1>`;
     interaction.appendChild(typing);
     scrollToBottom();
