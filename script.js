@@ -137,12 +137,10 @@ userIcon.addEventListener("click" , function(e){
 
   if(flag){
     profile.style.opacity = "1"
-    overlay.classList.remove("hidden")
     flag = false
   }
   else{
     profile.style.opacity = "0"
-    overlay.classList.add("hidden")
     flag = true
   }
   
@@ -153,14 +151,7 @@ userIcon.addEventListener("click" , function(e){
     
   
   `
-  
 })
-  
-  document.addEventListener("click" , function () {
-    profile.style.opacity = "0"
-    overlay.classList.add("hidden")
-    flag = true
-  })
 
 profile.addEventListener("click" , function (e) {
     e.stopPropagation();
@@ -172,7 +163,29 @@ profile.addEventListener("click" , function (e) {
 
 
 
+
+let checkHis = false
 //history-icon
+  history.style.transform = "translateX(-590px)"
+sideBar.addEventListener("click", function (e) {
+  e.stopPropagation(); // prevent triggering document click
+
+  if (!checkHis) {
+    history.style.transform = "translateX(0px)";
+    profile.classList.add("hidden");
+    checkHis = true;
+  } else {
+    history.style.transform = "translateX(-590px)";
+    checkHis = false;
+    profile.classList.remove("hidden");
+  }
+
+  profile.style.opacity = "0";
+  flag = true;
+});
+
+
+
 
 //history-icon
 
