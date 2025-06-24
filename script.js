@@ -137,12 +137,10 @@ userIcon.addEventListener("click" , function(e){
 
   if(flag){
     profile.style.opacity = "1"
-    overlay.classList.remove("hidden")
     flag = false
   }
   else{
     profile.style.opacity = "0"
-    overlay.classList.add("hidden")
     flag = true
   }
   
@@ -156,14 +154,7 @@ userIcon.addEventListener("click" , function(e){
     <p class="text-[15px] text-center text-[#d2d2d2] my-[5px]">Don't have an account? <span class="">sign up</span></p>
     <button class="bg-[#d8d8d8] w-full h-[40px] text-[18px] rounded-[10px] text-[#2E2F2E] font-bold">Login</button>
   `
-  
 })
-  
-  document.addEventListener("click" , function () {
-    profile.style.opacity = "0"
-    overlay.classList.add("hidden")
-    flag = true
-  })
 
 profile.addEventListener("click" , function (e) {
     e.stopPropagation();
@@ -175,7 +166,29 @@ profile.addEventListener("click" , function (e) {
 
 
 
+
+let checkHis = false
 //history-icon
+  history.style.transform = "translateX(-590px)"
+sideBar.addEventListener("click", function (e) {
+  e.stopPropagation(); // prevent triggering document click
+
+  if (!checkHis) {
+    history.style.transform = "translateX(0px)";
+    profile.classList.add("hidden");
+    checkHis = true;
+  } else {
+    history.style.transform = "translateX(-590px)";
+    checkHis = false;
+    profile.classList.remove("hidden");
+  }
+
+  profile.style.opacity = "0";
+  flag = true;
+});
+
+
+
 
 //history-icon
 
