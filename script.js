@@ -1,10 +1,11 @@
-// let body = document.querySelector(".body");
 let search = document.querySelector(".search");
 let enterIcon = document.querySelector(".enter-icon");
 let interaction = document.querySelector(".interaction");
 let userIcon = document.querySelector(".user-icon");
 let sideBar = document.querySelector(".sidebar-icon");
 let profile = document.querySelector(".profile");
+let overlay = document.querySelector(".overlay")
+let history = document.querySelector(".history")
 
 
 let chatData = {
@@ -126,15 +127,52 @@ enterIcon.addEventListener("click", handleSend);
 
 
 //profile-icon
+
+let flag = true
+
 profile.style.opacity = "0"
+
 userIcon.addEventListener("click" , function(e){
-  e.stopPropagation()
-  profile.style.opacity = "1"
+  e.stopPropagation() 
 
+  if(flag){
+    profile.style.opacity = "1"
+    overlay.classList.remove("hidden")
+    flag = false
+  }
+  else{
+    profile.style.opacity = "0"
+    overlay.classList.add("hidden")
+    flag = true
+  }
+  
+  profile.innerHTML = `
+
+    <h1>Login</h1>
+    <input type="email" placeholder="Useremail" id="enteredUserEmailID" />
+    
+  
+  `
+  
+})
+  
+  document.addEventListener("click" , function () {
+    profile.style.opacity = "0"
+    overlay.classList.add("hidden")
+    flag = true
+  })
+
+profile.addEventListener("click" , function (e) {
+    e.stopPropagation();
 })
 
-document.addEventListener("click" , function () {
-  profile.style.opacity = "0"
-})
+
+
 //profile-icon
+
+
+
+//history-icon
+
+//history-icon
 
