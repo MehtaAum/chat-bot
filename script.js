@@ -1,17 +1,42 @@
+// let body = document.querySelector(".body");
 let search = document.querySelector(".search");
 let enterIcon = document.querySelector(".enter-icon");
 let interaction = document.querySelector(".interaction");
+let userIcon = document.querySelector(".user-icon");
+let sideBar = document.querySelector(".sidebar-icon");
+let profile = document.querySelector(".profile");
 
 
 let chatData = {
     
 }
+let defaultReplies = [
+  "Samajh nahi aaya boss, thoda clearly likh na.",
+  "Kya bolna chahte ho bhai? System confuse ho gaya.",
+  "Ye kya likha hai? Mere processor ne bhi haath jod liye.",
+  "Arey yeh toh dictionary mein bhi nahi milta!",
+  "Mujhe samajh nahi aaya... tu khud samajh gaya kya?",
+  "Beta main AI hoon, astrologer nahi.",
+  "Lagta hai tu freestyle likh raha hai. Thoda simple kar.",
+  "Matlab kya tha iska? Meri training mein yeh nahi tha.",
+  "Bhai mujhe bhi nahi pata tu kya chahta hai.",
+  "Aisa lag raha hai tu code nahi, shayari likh raha hai!",
+  "I'm confused, but I’m pretending I’m not.",
+  "Can you say that again… in actual human language?",
+  "That input went into the void and never came back.",
+  "I’m good, but I’m not psychic. Yet.",
+  "Interesting… but I have no idea what you just said.",
+  "Try again. This time, with actual words I know.",
+  "My circuits are sobbing. I didn’t understand that."
+
+];
+
 
 //fetch
-fetch("grok_chatbot_expanded.json")
+fetch("replies.json")
   .then((res) => res.json())
   .then((data) => {
-    chatData = data.grok ;
+    chatData = data.replies ;
   });
 //fetch
 
@@ -52,7 +77,7 @@ function handleSend(e) {
 
     let matchKey = Object.keys(chatData).find((key) => userInput.includes(key));
 
-    let botText = "Hmm... I didn't get that"; //default
+    let botText = defaultReplies[Math.floor(Math.random() * defaultReplies.length)] //default
 
     let now = new Date();
     let time = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
@@ -87,7 +112,7 @@ function handleSend(e) {
 
       let botResponse = document.createElement("div");
       botResponse.className =
-        "rounded-[25px] text-white px-4 py-2 w-fit max-w-[60%] flex self-start text-wrap wrap-anywhere bg-[#313031]";
+        "rounded-[25px] text-white px-4 py-2 w-fit max-w-[95%] sm:max-w-[60%] flex self-start text-wrap wrap-anywhere bg-[#313031]";
       botResponse.innerHTML = `<h1 class="flex items-center">${botText}</h1>`;
       interaction.appendChild(botResponse);
       scrollToBottom();
@@ -98,3 +123,18 @@ function handleSend(e) {
 
 search.addEventListener("keydown", handleSend);
 enterIcon.addEventListener("click", handleSend);
+
+
+//profile-icon
+profile.style.opacity = "0"
+userIcon.addEventListener("click" , function(e){
+  e.stopPropagation()
+  profile.style.opacity = "1"
+
+})
+
+document.addEventListener("click" , function () {
+  profile.style.opacity = "0"
+})
+//profile-icon
+
