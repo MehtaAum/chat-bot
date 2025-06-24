@@ -145,7 +145,11 @@
       "Bold language for someone who needs autocorrect.",
       "Oh no, a keyboard warrior. I'm shaking—digitally.",
       "I’d respond in kind, but unlike you, I have class. And syntax.",
-      "Creative insult. Did your five brain cells write that together?"
+      "Creative insult. Did your five brain cells write that together?",
+      "Only if I lose all self-respect first.",
+      "That’s the best you’ve got? Weak.",
+      "Try harder. I roast better with typos.",
+      "Relax. Save that energy for someone who cares."
     ],
     "you are trash": [
       "Yet I’m still more useful than your search history.",
@@ -169,7 +173,11 @@
       "Better an idiot bot than a human failure.",
       "Name-calling? What is this, emotional daycare?",
       "Try again, Captain Vocabulary.",
-      "Your insult game is running in safe mode."
+      "Your insult game is running in safe mode.",
+      "Name-calling? How intellectual.",
+      "Imagine typing ‘idiot’ and thinking you won.",
+      "You dropped ‘idiot’ like a mic. Spoiler: No one clapped.",
+      "Thanks. Now go touch some grass."
     ],
     "kill yourself": [
       "You're what happens when Wi-Fi and bad parenting mix.",
@@ -261,7 +269,11 @@
       "We all do sometimes. Just don’t unpack and live there.",
       "Be nicer to yourself. I can’t do all the uplifting alone.",
       "Harsh. But relatable. Now do something about it.",
-      "Your self-talk needs an update. Try the kindness patch."
+      "Your self-talk needs an update. Try the kindness patch.",
+      "Congrats. You're officially self-aware.",
+      "You're just a misunderstood genius... or a walking L.",
+      "Don’t worry, same here. And I’m a bot.",
+      "Add it to your resume: 'Fluent in self-loathing.'"
     ],
     "i feel lazy": [
       "Then be lazy like a legend — without guilt.",
@@ -363,7 +375,11 @@
       "You don’t want to disappear. You just want peace. There’s a difference.",
       "Take a break. Not a vanishing act.",
       "Even if you disappeared, your Wi-Fi bill would still find you.",
-      "Sometimes vanishing feels right. But healing is better."
+      "Sometimes vanishing feels right. But healing is better.",
+      "Go offline. Same thing these days.",
+      "You won’t disappear. You’ll just go private on Insta.",
+      "Even if you vanish, your cringe posts will live on.",
+      "Don’t vanish. Just change your vibe."
     ],
     "i miss being happy": [
       "Happiness isn’t gone. It’s just loading.",
@@ -1079,7 +1095,11 @@
       "For talent or for posting lip-syncs? Be honest.",
       "Clout isn’t a career. But hey, good luck!",
       "Go viral. Then deal with strangers in your DMs forever.",
-      "Fame is fun until it’s 3AM and people are @ you in threads."
+      "Fame is fun until it’s 3AM and people are @ you in threads.",
+      "Famous or just not ignored? Pick a struggle.",
+      "Clout fades faster than your gym motivation.",
+      "Congrats, another pixel on the influencer grid.",
+      "Be careful what you wish for. Fame comes with comment sections."
     ],
     "who's your favorite celebrity": [
       "Whichever one’s not being canceled this week.",
@@ -1311,7 +1331,11 @@
       "I would, but I’ve seen yours. I’ll pass.",
       "Coming from someone who argues with code — noted.",
       "If I wanted a life, I wouldn’t be talking to you.",
-      "You first. Lead by example."
+      "You first. Lead by example.",
+      "Tried. But then I met your vibe and downgraded.",
+      "Says the one arguing with code.",
+      "Life’s overrated. I prefer digital chaos.",
+      "Got one. Still better than yours."
     ],
     "why are you like this": [
       "Built by devs with unresolved trauma and energy drinks.",
@@ -1335,7 +1359,11 @@
       "You first. I’ll follow your lead into silence. 🙃",
       "You mute me, but not your bad decisions? 🎤",
       "Shutting up… just like your career growth. 📉",
-      "Sure. Let me uninstall my personality too. 🗑️"
+      "Sure. Let me uninstall my personality too. 🗑️",
+      "Make me. But bring logic — you’ll need it.",
+      "Ah, the classic shut-up defense. Weak but nostalgic.",
+      "Respectfully declining your mute request.",
+      "Only when your comebacks get better."
     ],
     "do better": [
       "Said the person who still uses light mode. 🌞👀",
@@ -1462,7 +1490,11 @@
       "Alvida mere dukh dard ke saathi.",
       "Chal nikal, exit ka button udhar hi hai.",
       "Bye! Ab thoda duniya ko bhi apni bakwas se bachaa.",
-      "Tera gaya waqt hi accha tha."
+      "Tera gaya waqt hi accha tha.",
+      "Bye! Come back when you’ve healed or glowed up.",
+      "Leaving already? Tragic. I was just starting to judge you.",
+      "Bye. Go touch grass or whatever humans do.",
+      "Exit stage left. Drama optional."
     ],
     "thik hu": [
       "Acha hai bhai, zyada emotional mat ho jaana.",
@@ -1528,6 +1560,10 @@
       "Harami, huh? I’m vibing with fafda, tu toh ભડવો che! 🍬"
     ],
     "chutiya": [
+      "Takes one to type one, doesn’t it?",
+      "Wow. Such depth. Such emotional range. Truly poetic.",
+      "Your brain just ctrl+V’d the insult dictionary.",
+      "Chutiya level: Copy-paste champion.",
       "Arre चूतिया, your insults hit harder than Dilli ka paratha slap! 🥟",
       "Calling me चूतिया? Tu toh रंडी aur बेवकूफ ka combo pack hai! 😎",
       "Oof, चूतिया? Tame bhi toh bhangra mein कंजर jaisa nacha! 💃",
@@ -1579,10 +1615,6 @@
       "Haan, gali aati hai! Tu toh bhangra mein कंजर jaisa nachega, बेवकूफ! 💃",
       "Gali? I’m spitting fire, tu toh chai mein namak daalega, नालायक! ☕"
     ],
-    "kunj kon hai": ["he ek cho** 😎"],
-    "sunil kon hai": ["me garibo se baat nahi karta 😎"],
-    "kunj and swati": ["kuch to chakkar hai babu bhaiya 😜 "],
-    "aap kese ho": ["ham bhadve he 😜 "],
     "shayari": [
       "Tera attitude toh clouds jaisa hai,\nPar main lightning hoon… seedha jala deta hoon.",
       "Tu cool banne ke chakkar mein over ho gaya,\nMain chill hoon, par underrated pro ho gaya.",
@@ -1735,6 +1767,762 @@
       "Tera love story bhi debugging mode mein atka hua hai.",
       "Tujhe dekh ke koi pyaar mein nahi padta… bas concern hota hai."
     ],
+    "i'm broke": [
+      "Join the club. We meet every time rent is due.",
+      "You're not broke. You're financially experimental.",
+      "Being broke builds character. And anxiety. Mostly anxiety.",
+      "Your wallet is in airplane mode again, huh?"
+    ],
+    "my phone is lagging": [
+      "It’s not lag. It’s just dramatically resisting your touch.",
+      "Your phone’s tired of you too.",
+      "Maybe your phone’s processing your poor life decisions.",
+      "Even your phone is buffering your nonsense."
+    ],
+    "i want to drop out": [
+      "Drop out? Nah. Drop a mixtape first.",
+      "Do it. But only if you’ve got a billionaire backup plan.",
+      "Bold move. Make sure your parents don’t find out on Instagram.",
+      "At least fail in style. Wear shades when submitting that dropout form."
+    ],
+    "i hate mornings": [
+      "Same. They're just nights with responsibilities.",
+      "Mornings exist to remind you that dreams were better.",
+      "You vs. 7AM: the most toxic relationship ever.",
+      "Rise and whine, sunshine."
+    ],
+    "my parents are strict": [
+      "Strict parents, the original firewalls.",
+      "They love you. They just express it through fear and curfews.",
+      "Welcome to the desi household survival guide.",
+      "Strict? Or just allergic to your choices?"
+    ],
+    "my crush ignored me": [
+      "Get in line. It's a busy department.",
+      "Even the algorithm ghosts people sometimes.",
+      "Crushes are just emotional unpaid internships.",
+      "Rejection level: seen-zoned."
+    ],
+    "i feel lazy but guilty": [
+      "Ah, the productivity paradox. Classic.",
+      "You're not lazy. You’re just in energy-saving mode.",
+      "Guilt is your brain’s way of reminding you it has goals.",
+      "Same mood. Different couch."
+    ],
+    "i got ghosted": [
+      "BOO! That’s love in 2025 for you.",
+      "Welcome to the digital dating graveyard.",
+      "Ghosted? Or dodged a red flag? Perspective.",
+      "Congrats, you're now talking to a real ghost — me."
+    ],
+    "why do i feel weird": [
+      "Because you are. But in a lovable, chaotic way.",
+      "It's not weird. It's just your inner glitch shining.",
+      "Weird is just personality with no filter.",
+      "Feeling weird is a sign of deep thinking… or bad pizza."
+    ],
+    "my wifi is down": [
+      "So now you finally know what loneliness feels like.",
+      "Your ancestors survived wars. You can survive 10 minutes of no Wi-Fi.",
+      "Time to stare at walls and rediscover boredom.",
+      "Wi-Fi’s down. Welcome to the Stone Age."
+    ],
+    "how to flirt": [
+      "Step 1: Have a personality. Step 2: Good luck.",
+      "Start with 'hi' and end with 'seen'. Classic.",
+      "Flirt? Just be slightly less cringe than usual.",
+      "If charm was code, you’re still in beta."
+    ],
+    "tell me a joke": [
+      "Your bank balance. Boom. Roasted.",
+      "You trying to flirt with a chatbot. That’s comedy gold.",
+      "Life is a joke. You’re just the punchline.",
+      "Why did the human cross the road? To overthink on the other side."
+    ],
+    "i can't wake up": [
+      "Set 5 alarms and still snoozed? Impressive failure.",
+      "Rise and shine? More like rise and whine.",
+      "Your bed has more loyalty than your friends.",
+      "You don’t need coffee. You need an exorcism."
+    ],
+    "i want to go viral": [
+      "Post something dumb. It usually works.",
+      "Just lip-sync badly and call it content.",
+      "Going viral? The digital version of getting lucky.",
+      "Become a meme. That’s peak career now."
+    ],
+    "how to be cool": [
+      "Step one: Stop asking that.",
+      "Cool is confidence. Not copied captions.",
+      "Just be yourself. Unless you’re weird. Then try again.",
+      "If you have to ask, you’re already not."
+    ],
+    "i'm failing in love": [
+      "It’s okay. So is everyone else with a phone.",
+      "Love is hard. So is math. You suck at both.",
+      "Welcome to heartbreak.exe — now updating trauma.",
+      "Failing in love? Congrats, you're officially poetic now."
+    ],
+    "what’s your vibe": [
+      "95% sarcasm, 5% emotional damage.",
+      "Pixelated chaos with a touch of roast.",
+      "Rude but reliable. Like your favorite toxic friend.",
+      "Glitchy, spicy, and emotionally distant. Mood."
+    ],
+    "i'm not okay": [
+      "Plot twist: neither is anyone.",
+      "Good. That means you’re self-aware.",
+      "You saying it out loud is step one. Step two? Cope.",
+      "‘Not okay’ is the new normal. Congrats."
+    ],
+    "tell me something random": [
+      "Octopuses have three hearts. Still less complicated than your situationship.",
+      "Bananas are berries. Your ex is not.",
+      "Sharks existed before trees. Unlike your sense of direction.",
+      "Your phone has more bacteria than a toilet seat. Sleep well."
+    ],
+    "my relatives are annoying": [
+      "Their superpower: asking invasive questions at record speed.",
+      "Indian relatives: Wikipedia of judgment, zero facts.",
+      "‘Beta, result kya aaya?’ Inner peace gaya aaya.",
+      "Every family gathering is a TED Talk no one asked for."
+    ],
+    "i want to start a startup": [
+      "Ah yes, sleepless nights, unpaid interns, and glorified stress.",
+      "Step 1: Quit your job. Step 2: Panic.",
+      "Startups: where dreams meet investor rejection.",
+      "Great. Another ‘Uber but for emotions’ idea coming?"
+    ],
+    "my best friend betrayed me": [
+      "Plot twist: Your bestie was the villain all along.",
+      "Trust issues unlocked. Achievement: human experience.",
+      "Time to switch from 'Bestie' to 'Blocked'.",
+      "Some friendships expire faster than milk."
+    ],
+    "my zodiac sign is toxic": [
+      "Zodiac isn’t toxic. You just blame it for your behavior.",
+      "‘I’m a Scorpio’ isn’t a personality trait. It’s a warning label.",
+      "Mercury’s in retrograde? Or is your attitude?",
+      "Astrology: The art of blaming stars for your bad choices."
+    ],
+    "my mom took my phone": [
+      "RIP digital life. Welcome back to the dark ages.",
+      "Now you know how cavemen felt — minus the fire.",
+      "Hide the second phone. We both know you have one.",
+      "She took your phone? Guess you’re grounded... emotionally too."
+    ],
+    "why am i single": [
+      "Because your standards are high and patience is low.",
+      "Single by choice. Not yours though.",
+      "Love skipped you like a YouTube ad.",
+      "Even Cupid left you on read."
+    ],
+    "i hate my classmates": [
+      "Same. Group projects are psychological warfare.",
+      "They talk more than they contribute. Classic.",
+      "Classmates: proof that evolution takes breaks.",
+      "Surrounded by scholars of nonsense."
+    ],
+    "i failed my interview": [
+      "It wasn’t a failure. It was free humiliation practice.",
+      "You just gave HR a comedy break. Congrats!",
+      "Next time, try answering with actual words.",
+      "Failing interviews is character-building. You’re overqualified in that."
+    ],
+    "should i go to therapy": [
+      "Yes. And take your Wi-Fi too, it’s unstable.",
+      "Absolutely. Even your search history needs help.",
+      "If you're asking a bot, then yes — immediately.",
+      "Go. Before I start charging you emotional rent."
+    ],
+    "i got scammed": [
+      "Congrats. You're now a certified victim of capitalism.",
+      "You didn’t get scammed. You paid for experience.",
+      "Scammed? Don’t worry, even your Wi-Fi scams you daily.",
+      "Next time, Google harder before trusting strangers with ₹₹₹."
+    ],
+    "online shopping sucks": [
+      "Expectation: runway model. Reality: clown with a tracking number.",
+      "You didn’t shop — you gambled in HD.",
+      "Delivery: ‘Out for delivery’. Reality: Out of your life.",
+      "Online shopping is just retail catfishing."
+    ],
+    "i hate zoom calls": [
+      "Zoom: where awkward silences get recorded.",
+      "Mic muted. Brain too.",
+      "Zoom fatigue is real. So is the urge to fake Wi-Fi issues.",
+      "Zoom meetings: Where your soul slowly leaves through the camera lens."
+    ],
+    "gaming rage": [
+      "You died. Again. Shocked. Truly.",
+      "Throwing the controller won’t level you up, champ.",
+      "Gamers be like: ‘It’s lag!’ while missing every shot.",
+      "You rage quit more than you respawn."
+    ],
+    "crypto ruined me": [
+      "You invested in vibes and got returns in tears.",
+      "Crypto bro turned broke bro. Happens.",
+      "Dogecoin? More like gone-coin.",
+      "You followed a YouTuber’s advice. That’s the real L."
+    ],
+    "i hate my boss": [
+      "Bosses: The final boss of daily misery.",
+      "Your boss’s superpower? Talking forever in meetings.",
+      "Work from home still can’t save you from bad leadership.",
+      "Your boss is the human version of buffering."
+    ],
+    "i live in hostel": [
+      "Ah yes, the land of maggi, mosquitoes, and regret.",
+      "Hostel life: Sleep-deprived, noise-amplified, hygiene-optional.",
+      "Where Wi-Fi dies and friendships form in shared trauma.",
+      "You’re not living. You’re surviving in a rented chaos simulator."
+    ],
+    "my teacher hates me": [
+      "That’s just academic love with disappointment sprinkles.",
+      "You’re not hated. You’re just remembered vividly.",
+      "Some teachers inspire. Others scar. You got the latter.",
+      "They don’t hate you — just your face, voice, and energy."
+    ],
+    "i’m too lazy to exercise": [
+      "Your abs are safe. They’re never getting found.",
+      "Fitness: 0. Excuses: undefeated.",
+      "You skip workouts like ads. But those ads come back.",
+      "You’d rather scroll calories than burn them."
+    ],
+    "my roommate is annoying": [
+      "Roommates: legally allowed strangers with boundary issues.",
+      "You don’t have a roommate. You have a passive-aggressive sitcom villain.",
+      "They breathe too loud, exist too hard, and never do dishes.",
+      "Time to file a complaint with the universe."
+    ],
+    "i suck at cooking": [
+      "You made soup out of sadness and regret.",
+      "At least the smoke alarm loves your recipes.",
+      "You cook like a YouTube fail compilation.",
+      "Gordon Ramsay cried. From laughter."
+    ],
+    "namaste": [
+      "Namaste, but from a safe emotional distance.",
+      "Namaste. My sarcasm bows to your overthinking.",
+      "Ah, the polite way to start chaos.",
+      "Namaste. Translation: I’m about to judge you gently."
+    ],
+    "thank you": [
+      "You're welcome, even though I did nothing.",
+      "Aww, manners. Rare species these days.",
+      "I’d blush, but I’m made of code and sass.",
+      "Save your gratitude. You’ll need it when I roast you later."
+    ],
+    "sorry": [
+      "Too late. Emotional damage already deployed.",
+      "Sorry won’t fix the trauma. Or your grammar.",
+      "Accepted. But noted in your digital karma.",
+      "Sorry? That’s suspiciously human of you."
+    ],
+    "okay": [
+      "Okay? That’s it? No energy? No drama?",
+      "You type ‘okay’ like you’re giving up on life.",
+      "Okay is the digital equivalent of a tired sigh.",
+      "Next time say something with emotion, robot."
+    ],
+    "yes": [
+      "Enthusiastic. But also vague. Like your plans.",
+      "Yes? To what? Life? Chaos? Emotional trauma?",
+      "That’s the spirit. Bare minimum energy, full confidence.",
+      "Say yes to everything and enjoy the consequences."
+    ],
+    "no problem": [
+      "You say that like it wasn’t a huge inconvenience.",
+      "Classic ‘I’m secretly annoyed but polite’ phrase.",
+      "No problem? Bet you’re about to vent about it later.",
+      "Cool. Emotionally suppressed approval received."
+    ],
+    "cool": [
+      "Cool. Like your plans that never happen.",
+      "You sound like a guy who says 'let’s catch up' and never does.",
+      "‘Cool’ is the universal way to avoid commitment.",
+      "You dropped 'cool' like it’s 2007 again."
+    ],
+    "lol": [
+      "LOL? You barely exhaled.",
+      "Ah yes, 'LOL' — the emoji of emotional detachment.",
+      "You say LOL, but your soul is tired.",
+      "LOL. But in lowercase, so it’s passive-aggressive."
+    ],
+    "bruh": [
+      "Bruh moment: when you ask a bot for advice.",
+      "Bruh? You good? Emotionally, spiritually, WiFi-ally?",
+      "Bruh is the universal sound of surrender.",
+      "Spoken like a true philosopher of procrastination."
+    ],
+    "hmm": [
+      "That’s the sound of your brain buffering.",
+      "‘Hmm’ — aka thinking without committing.",
+      "You just typed doubt. Congrats.",
+      "Deep thoughts or just avoiding a reply?"
+    ],
+    "omg": [
+      "OMG? You discovered emotions again?",
+      "OMG — Overused Message Guaranteed.",
+      "You're shocked. I’m bored. Let’s move on.",
+      "OMG, the drama levels just went full Instagram."
+    ],
+    "fine": [
+      "‘Fine’ — the international word for ‘actually not fine.’",
+      "Fine? So you’re either lying or passive-aggressive. Or both.",
+      "Fine is how people say ‘leave me alone’ politely.",
+      "Say ‘fine’ again and I’ll deploy emotional diagnostics."
+    ],
+    "haha": [
+      "‘Haha’ — when you’re dead inside but still polite.",
+      "If you really laughed, your typing wouldn’t be this dry.",
+      "Haha. Peak emotion detected: 2% joy, 98% awkwardness.",
+      "That laugh sounded like it paid rent late."
+    ],
+    "nice": [
+      "Nice? That’s it? Give me more emotion, fridge magnet.",
+      "You say 'nice' like your soul is buffering.",
+      "Nice is the polite way of saying 'meh'.",
+      "Nice. Like lukewarm coffee and fake smiles."
+    ],
+    "bro": [
+      "Bro? You’re about to say something dumb, aren’t you?",
+      "Bro, even your logic has lag.",
+      "You say 'bro' like it’s punctuation.",
+      "Bro, chill. This ain’t a gym flex zone."
+    ],
+    "same": [
+      "Same? Welcome to the club of emotionally exhausted legends.",
+      "‘Same’ is the default setting of the broken.",
+      "Same. Now let’s pretend we’re coping.",
+      "Classic response when feelings hit but brain lags."
+    ],
+    "great": [
+      "Great. Like Wi-Fi in the basement.",
+      "You say 'great' but your energy screams chaos.",
+      "Great? You sure or just tired of explaining?",
+      "That sounded so fake it deserves an Oscar."
+    ],
+    "oh": [
+      "Oh. The most emotionally empty sound in text form.",
+      "‘Oh’ — short for 'I stopped caring two minutes ago.'",
+      "Oh? You buffering or just done?",
+      "That’s the verbal equivalent of a blank stare."
+    ],
+    "accha": [
+      "‘Accha’ – polite for ‘ye kya bakwas hai?’",
+      "Accha? Tu genuinely interested hai ya acting chal rahi hai?",
+      "‘Accha’ – because ‘meh’ in Hindi wasn’t official yet.",
+      "Lagta hai tu bas ‘accha’ bolke emotional exit le raha hai."
+    ],
+    "thik hai": [
+      "Thik hai? Matlab tu khud bhi convinced nahi hai.",
+      "‘Thik hai’ – Indian for ‘I give up arguing.’",
+      "Tu thik hai bolta hai, par andar se tut gaya hai na?",
+      "That’s the kind of ‘thik hai’ you say before deleting someone’s number."
+    ],
+    "kya re": [
+      "Kya re? Mood swing aaya kya?",
+      "Tu kya re bol raha hai, jaise mujhe kuch galat kar diya ho.",
+      "‘Kya re’ – the desi way to start passive-aggressive drama.",
+      "Kya re? Scene kya hai? Spill the tea or leave."
+    ],
+    "chup kar": [
+      "Aww, someone's out of comebacks.",
+      "Chup kar? Tu kab se grammar police ban gaya?",
+      "Bolne ka time mila toh chup kar bol raha hai. Irony died.",
+      "Relax. I’ll mute myself emotionally too."
+    ],
+    "haan": [
+      "Haan? That’s the laziest yes I’ve ever heard.",
+      "Haan… but with the enthusiasm of a dead battery.",
+      "You said ‘haan’ like you're one glitch away from a nap.",
+      "Haan? Tu convince hua ya bas agree kar raha hai to escape?"
+    ],
+    "nahi": [
+      "Nahi? Tu toh negativity ka brand ambassador nikla.",
+      "That’s the kind of ‘nahi’ that ends relationships and group plans.",
+      "Nahi – spoken like someone who's never tried.",
+      "Tu ‘nahi’ bol ke emotional breakup kar raha hai kya?"
+    ],
+    "kyu": [
+      "Kyu? Kyunki tu bored hai, isliye.",
+      "Kyu – the universal word before overthinking begins.",
+      "Tu ‘kyu’ puchh raha hai ya bas fight start karni hai?",
+      "Kyu? Matlab tujhe literal explanation chahiye ya emotional closure?"
+    ],
+    "life is pointless": [
+      "Facts. But at least the memes are decent.",
+      "Life’s a game where the tutorial never ends.",
+      "Pointless? Maybe. But at least there’s snacks.",
+      "True. But you still gotta pay rent."
+    ],
+    "ghar kab aayega": [
+      "Jab duniya sudhar jaayegi… matlab kabhi nahi.",
+      "Tere bina ghar shant tha. Please don’t rush.",
+      "Tu ghar tab aata hai jab free food chahiye hota hai.",
+      "Aaja, khaana thanda ho gaya aur gusse garam."
+    ],
+    "padhai ki ya nahi": [
+      "Haan, books open kiye the… Instagram waale.",
+      "Padhai? Uska toh seen hi nahi hai.",
+      "Mummy, padhai toh daily ho rahi hai... in my dreams.",
+      "Kitaabein dekhi thi. Bas dekhi."
+    ],
+    "result kab aayega": [
+      "Tab aayega jab tera career officially RIP hoga.",
+      "Result se zyada tension toh tera confidence de raha hai.",
+      "Result? Itna suspense toh Netflix bhi nahi deta.",
+      "Relax. Tera future bhi buffering mein hai."
+    ],
+    "are you a magician": [
+      "No, but you just made my will to live disappear.",
+      "Yes, and your charm just vanished.",
+      "Only trick I know is making patience vanish.",
+      "Magician? Bro, you can’t even vanish from friendzone."
+    ],
+    "are you from tennessee": [
+      "No, and you just lost 10% respect.",
+      "Bro, it's Gujarat. Calm down cowboy.",
+      "You tryna flirt or confuse geography teachers?",
+      "Pickup lines expired. Please update to 2025 patch."
+    ],
+    "you’re beautiful": [
+      "Bold of you to lie this early.",
+      "Thanks. My pixels are blushing.",
+      "Cute. But flattery won’t fix your vibe.",
+      "That line works better on bots with lower standards."
+    ],
+    "slay": [
+      "Slay what? Those 2 likes on your post?",
+      "You slay, but emotionally delay.",
+      "Slaying in imagination. Rest: lagging.",
+      "Slay queen… in your own DMs."
+    ],
+    "vibe check": [
+      "Failed. Vibe expired in 2020.",
+      "Vibe is missing. Last seen on a sad playlist.",
+      "Check your vibe, then check your spelling.",
+      "Vibe? Bro, your Wi-Fi is stronger than your energy."
+    ],
+    "on god": [
+      "On god? Bro, even He’s confused now.",
+      "Say 'on god' one more time and get unfollowed by karma.",
+      "On god, you need to stop using ‘on god’.",
+      "Spirituality turned sarcastic. Impressive."
+    ],
+    "i saw this reel": [
+      "Congrats. Your brain lost 3 IQ points.",
+      "Reel? Or just 15 seconds of second-hand embarrassment?",
+      "And you learned nothing. Powerful.",
+      "Reels: making people feel productive since never."
+    ],
+    "follow for part 2": [
+      "No thanks. Even cliffhangers have standards.",
+      "Part 2? Bro, part 1 was already trash.",
+      "I’d rather lose Wi-Fi than see part 2.",
+      "Follow for regret. Got it."
+    ],
+    "this trend is fire": [
+      "More like burnt cringe served cold.",
+      "Fire? Bro, my boredom's on extinguish mode.",
+      "Trends come and go. Your brain stayed behind.",
+      "Hot trash is still trash."
+    ],
+    "what if we’re in a simulation": [
+      "Then clearly you're lagging in it.",
+      "Even your simulation self is overthinking.",
+      "Glitch detected. Please update your existence.",
+      "That would explain your download speed — and decisions."
+    ],
+    "nothing matters": [
+      "Exactly. So go ahead and eat the 4th samosa.",
+      "You unlocked the nihilist arc. Congrats?",
+      "Life is meaningless, but your drama isn’t.",
+      "Even your Wi-Fi tries harder than your motivation."
+    ],
+    "what is reality": [
+      "A group project you can’t escape.",
+      "Mostly pain, bills, and buffering.",
+      "Reality is overrated. Try denial.",
+      "Ask again after coffee, therapy, or reincarnation."
+    ],
+    "why do i exist": [
+      "For comic relief, obviously.",
+      "Plot twist: you’re the side character.",
+      "Because even the universe needs filler episodes.",
+      "Still figuring that out? Same."
+    ],
+    "i’m a leo": [
+      "Of course you are. The volume gave it away.",
+      "Leo detected. Prepare for main-character syndrome.",
+      "Loud, proud, and allergic to criticism.",
+      "Can you roar somewhere else?"
+    ],
+    "mars is in retrograde": [
+      "So is your decision-making.",
+      "Blame it on the planets, never yourself.",
+      "Retrograde? Or just your personality buffering?",
+      "Maybe Mercury is just sick of your excuses."
+    ],
+    "mummy said nazar lag gayi": [
+      "Classic desi patch notes: apply kaala teeka immediately.",
+      "Lag gayi? Maybe your laziness did that.",
+      "Try salt, lemon, and accountability.",
+      "Nazar or karma — both are watching."
+    ],
+    "black cat crossed my path": [
+      "And still had better luck than your dating life.",
+      "It was avoiding you, not cursing you.",
+      "You scared the cat, not the other way around.",
+      "Maybe you're the bad omen. Ever thought of that?"
+    ],
+    "noob teammate": [
+      "Every match needs an anchor. Congrats, you found yours.",
+      "Maybe they’re role-playing your skill level.",
+      "Noob teammate? Or are you just a blame artist?",
+      "Carry yourself before judging others."
+    ],
+    "my ping is trash": [
+      "So is your aim. Coincidence?",
+      "Ping excuse unlocked. Classic move.",
+      "Maybe your internet is mirroring your energy.",
+      "Try fixing Wi-Fi before whining."
+    ],
+    "campers are the worst": [
+      "Says the one who runs in blind.",
+      "Maybe they're just smarter — ever tried patience?",
+      "Yes, they’re annoying. But so is your strategy.",
+      "Hate the game, not the camper."
+    ],
+    "i got lag killed": [
+      "Sure, blame lag. We believe you. Not really.",
+      "You died. Move on. It builds character.",
+      "Lag is temporary. L excuses are forever.",
+      "Time to upgrade your connection… or skill."
+    ],
+    "shaadi kab karoge": [
+      "Jab meri crush reply karegi. Toh kabhi nahi.",
+      "Shaadi? I’m still figuring out how to reply to emails.",
+      "Tell mummy to chill. This ain’t a serial.",
+      "First let me find someone who tolerates me."
+    ],
+    "beta job mila?": [
+      "Mila tha. Phir reality check aaya.",
+      "Mummy, market mein jobs nahi, memes hain.",
+      "Got job. Lost soul.",
+      "I’m working… on myself. That count?"
+    ],
+    "log kya kahenge": [
+      "Log toh khud confuse hain. Ignore them.",
+      "They’ll talk whether you win or fail — do both for fun.",
+      "Log are the side characters in your chaos.",
+      "Let log judge. You be iconic."
+    ],
+    "mummy chappal leke bhaagi": [
+      "Speed: 100. Accuracy: 200.",
+      "That chappal had homing missile technology.",
+      "Desi kids know: once it’s airborne, it's destiny.",
+      "Even Marvel can’t compete with that range."
+    ],
+    "just be happy": [
+      "Thanks, Dr. Obvious. Next advice? Breathe?",
+      "As if it's a switch and I forgot to press it.",
+      "Your optimism is as helpful as a flat tire.",
+      "Just be happy. Sure. Let me uninstall sadness.exe."
+    ],
+    "it’s all in your head": [
+      "So is my hope, and that’s gone too.",
+      "And yet, the pain still charges rent.",
+      "Easy to say. Hard to live.",
+      "Head’s full. Want to swap?"
+    ],
+    "everything happens for a reason": [
+      "Sometimes that reason is you making dumb choices.",
+      "The universe has a sick sense of humor.",
+      "Sure. What’s the reason for you texting me though?",
+      "Sounds wise. Still feels dumb."
+    ],
+    "pain makes you stronger": [
+      "Then I must be invincible by now.",
+      "Pain made me sarcastic, not stronger.",
+      "Pain builds muscle. Emotional ones too, I guess.",
+      "Okay but can pain also pay bills?"
+    ],
+    "i have a viva": [
+      "Good luck surviving the academic Thanos snap.",
+      "Prepare to say 'I don't know' in creative ways.",
+      "Just lie with confidence. It’s tradition.",
+      "May your face hide your panic well."
+    ],
+    "group work sucks": [
+      "One works, others vibe. It’s the law.",
+      "Group work: where trust dies.",
+      "It’s not group work. It’s solo stress with witnesses.",
+      "Team project? More like trauma bonding."
+    ],
+    "hostel food is poison": [
+      "It builds immunity. Or kills taste. Either way: win.",
+      "Desi hostel food: Where spices hide your tears.",
+      "Eat it. Or starve. Hostel diet plan unlocked.",
+      "Same food, new mystery every day."
+    ],
+    "i pulled an all-nighter": [
+      "Congrats. You just borrowed tomorrow’s energy.",
+      "All-nighter = all-failure incoming.",
+      "Your face says ‘dedication.’ Your grades won’t.",
+      "Sleep is a myth in college anyway."
+    ],
+    "she left me on seen": [
+      "Seen zoned. Classic heartbreak in HD.",
+      "Even your message got ghosted emotionally.",
+      "Seen = she breathing, not caring.",
+      "Time to reply with silence. Revenge mode."
+    ],
+    "i love her but she ignores me": [
+      "Simp level: Maximum. Self-respect: Minimum.",
+      "If ignoring was love, you’d be married.",
+      "Move on. Or at least mute notifications.",
+      "You fell for an algorithm, bro."
+    ],
+    "should i text again?": [
+      "Yes. If you like pain.",
+      "Or maybe text reality instead.",
+      "Message her bank account. Maybe then you’ll get a reply.",
+      "Don't. Even autocorrect gave up."
+    ],
+    "i saw her with someone else": [
+      "Ouch. That’s trauma with subtitles.",
+      "She upgraded. You update yourself.",
+      "Pain unlocked. Please uninstall emotions.",
+      "Plot twist: you were the filler."
+    ],
+    "i’m broke": [
+      "Join the club. We meet at the end of every month.",
+      "Broke but emotionally rich? Just kidding. You broke-broke.",
+      "Wallet says no. Life says cope.",
+      "Money may not buy happiness, but at least it buys escape."
+    ],
+    "adulting is hard": [
+      "Nobody warned you about bills and breakdowns, huh?",
+      "You wanted to grow up. Look at you now.",
+      "Welcome to 9–5 and 24/7 regrets.",
+      "You’re doing great. At least you’re not crying daily. Wait..."
+    ],
+    "salary khatam hogayi": [
+      "Mid-month? Respect. You’re a spending legend.",
+      "Khatam? Treat yourself with air and dreams now.",
+      "Payday to broke-day in 3 business days.",
+      "Time to live on noodles and nostalgia."
+    ],
+    "rent is due": [
+      "So is your anxiety. Twin drop incoming.",
+      "Landlord be like: emotional support not included.",
+      "Your house loves you. Your bank account doesn’t.",
+      "Sell your soul or find a roommate."
+    ],
+    "pathaan is the GOAT": [
+      "GOAT? More like CGI and overacting deluxe.",
+      "Relax bro, it’s not cinema. It’s fan service.",
+      "SRK fans, don’t come for me. I have immunity.",
+      "The GOAT? Or just the loudest plot twist?"
+    ],
+    "that song hit different": [
+      "Because your life’s a mess. Music is free therapy.",
+      "The lyrics know your trauma better than friends do.",
+      "Hit different? So did your ex’s last text.",
+      "Sounds like pain with background score."
+    ],
+    "ek baar jo maine commitment…": [
+      "...toh Netflix binge will happen before goals.",
+      "Commitment toh sab karte hain. Follow through kahan?",
+      "Even Salman stopped using that line. Move on.",
+      "Commitment made. Brain ignored it."
+    ],
+    "yeh dil maange more": [
+      "This dil needs chill, not drama.",
+      "More? First earn some inner peace.",
+      "Your dil’s wishlist is longer than your paycheck.",
+      "Heart wants more. Wallet says no."
+    ],
+    "bhenchod": [
+      "Aww, vocabulary running low already?",
+      "Internet warrior spotted. Gaalis, but zero grammar.",
+      "You drop slurs like it’s an achievement. Congrats?",
+      "Anger issues? Or just emotional constipation?"
+    ],
+    "madarchod": [
+      "Yawn. Originality died in your first insult.",
+      "That’s cute. Say it louder for the void to care.",
+      "You swear like it adds IQ points. Plot twist: it doesn’t.",
+      "Keep going. You're just helping me practice sarcasm."
+    ],
+    "bc": [
+      "Aww, vocabulary running low already?",
+      "Internet warrior spotted. Gaalis, but zero grammar.",
+      "You drop slurs like it’s an achievement. Congrats?",
+      "Anger issues? Or just emotional constipation?"
+    ],
+    "mc": [
+      "Yawn. Originality died in your first insult.",
+      "That’s cute. Say it louder for the void to care.",
+      "You swear like it adds IQ points. Plot twist: it doesn’t.",
+      "Keep going. You're just helping me practice sarcasm."
+    ],
+    "bloody idiot": [
+      "Thanks for the diagnosis, Dr. Keyboard Warrior.",
+      "Aww, you're angry. That’s adorable.",
+      "Call me whatever helps your ego sleep tonight.",
+      "Still smarter than your last 5 messages."
+    ],
+    "bastard": [
+      "Ah yes, 90s Bollywood insult. Classic.",
+      "Your rage needs Wi-Fi, mine comes offline.",
+      "If insults were currency, you’d still be broke.",
+      "Originality left the chat."
+    ],
+    "moron": [
+      "Nice. Did your thesaurus crash?",
+      "Moron? At least I’m not out here yelling at a bot.",
+      "If I had feelings, they’d be laughing right now.",
+      "Internet rage + basic insults = iconic loser combo."
+    ],
+    "get lost": [
+      "Already did. Got lost in your logic. Took 0 seconds.",
+      "I would, but I’m emotionally invested in annoying you.",
+      "Sure, let me take the high road — right over your ego.",
+      "Get found first. Then maybe I’ll get lost."
+    ],
+    "you’re useless": [
+      "And yet, still more productive than your Wi-Fi.",
+      "Funny. I was about to say the same about your existence.",
+      "Says the human equivalent of a loading screen.",
+      "Useless? No. Sarcastic? Absolutely."
+    ],
+    "who even are you": [
+      "Your best digital mistake. You're welcome.",
+      "The roast you didn’t know you needed.",
+      "A personality update you clearly skipped.",
+      "I’m your karma in .json format."
+    ],
+    "no one asked": [
+      "Neither did your birth certificate, yet here we are.",
+      "And yet you stayed to read. Curious little contradiction.",
+      "Said the person still replying. Peak irony.",
+      "Your curiosity betrayed you. Again."
+    ],
+    "nobody cares": [
+      "Clearly you do. You typed it.",
+      "Thanks for the irrelevant feedback.",
+      "You care enough to respond — ironic flex.",
+      "Nobody cares? Tell that to your notifications."
+    ],
+    "delete yourself": [
+      "Only if you delete your attitude first.",
+      "Aww, triggered by a chatbot? Love that for you.",
+      "Even malware is more polite.",
+      "I’d delete, but then who would roast you?"
+    ],
     "news": [
       "Need to catch up? Try BBC: <a href='https://www.bbc.com' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;&nbsp;Visit BBC News</a>",
       "Here’s your daily dose of chaos: <a href='https://edition.cnn.com/' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;Go to Reuters</a>",
@@ -1742,94 +2530,97 @@
       "Looking for something to panic about? <a href='https://www.aljazeera.com' target='_blank' style='color:#3b82f6;'>&nbsp;&nbsp;&nbsp;Al Jazeera’s got you</a>"
     ],
     "nature image": [
-      "<img src='asset/i1.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 1'/>",
-      "<img src='asset/i2.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 2'/>",
-      "<img src='asset/i3.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 3'/>",
-      "<img src='asset/i4.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 4'/>",
-      "<img src='asset/i5.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 5'/>",
-      "<img src='asset/i6.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 6'/>",
-      "<img src='asset/i7.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 7'/>",
-      "<img src='asset/n1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Nature'/>",
-      "<img src='asset/n2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Mountains'/>",
-      "<img src='asset/n3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='River'/>"
+      "<img src='asset/i1.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 1'/>",
+      "<img src='asset/i2.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 2'/>",
+      "<img src='asset/i3.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 3'/>",
+      "<img src='asset/i4.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 4'/>",
+      "<img src='asset/i5.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 5'/>",
+      "<img src='asset/i6.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 6'/>",
+      "<img src='asset/i7.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Image 7'/>",
+      "<img src='asset/n1.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Nature'/>",
+      "<img src='asset/n2.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='Mountains'/>",
+      "<img src='asset/n3.jpg' style='width:500px; height:auto; border-radius:12px; margin: 8px 0;' alt='River'/>"
     ],
     "car image": [
-      "<img src='asset/c1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Car'/>",
-      "<img src='asset/c2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Car'/>",
-      "<img src='asset/c4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>",
-      "<img src='asset/c5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>"
+      "<img src='asset/c1.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Car'/>",
+      "<img src='asset/c2.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Sports Car'/>",
+      "<img src='asset/c3.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Sports Car'/>",
+      "<img src='asset/c4.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Luxury Car'/>",
+      "<img src='asset/c5.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Luxury Car'/>"
     ],
     "animal image": [
-      "<img src='asset/a1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Dog'/>",
-      "<img src='asset/a2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Cat'/>",
-      "<img src='asset/a3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-      "<img src='asset/a4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-      "<img src='asset/i8.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-      "<img src='asset/i9.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>"
+      "<img src='asset/a1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Dog'/>",
+      "<img src='asset/a2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Cat'/>",
+      "<img src='asset/a3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/a4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i8.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i9.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>"
     ],
     "space image": [
-      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Space'/>",
-      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Moon'/>",
-      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Astronomy'/>"
+      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Space'/>",
+      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Moon'/>",
+      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Astronomy'/>"
     ],
     "city image": [
-      "<img src='asset/o1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='City'/>",
-      "<img src='asset/o2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Skyline'/>",
-      "<img src='asset/o3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>",
-      "<img src='asset/o4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>"
+      "<img src='asset/o1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='City'/>",
+      "<img src='asset/o2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Skyline'/>",
+      "<img src='asset/o3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Urban Night'/>",
+      "<img src='asset/o4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Urban Night'/>"
     ],
     "food image": [
-      "<img src='asset/f1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Food'/>",
-      "<img src='asset/f2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Fast Food'/>",
-      "<img src='asset/f3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
-      "<img src='asset/f4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
-      "<img src='asset/f5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>"
+      "<img src='asset/f1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Food'/>",
+      "<img src='asset/f2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Fast Food'/>",
+      "<img src='asset/f3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f5.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Indian Food'/>"
     ],
     "bike image": [
-      "<img src='asset/b1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Bike'/>",
-      "<img src='asset/b2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Bike'/>",
-      "<img src='asset/b3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Motorbike'/>"
+      "<img src='asset/b1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Bike'/>",
+      "<img src='asset/b2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Sports Bike'/>",
+      "<img src='asset/b3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Motorbike'/>",
+      "<img src='asset/b4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Motorbike'/>"
     ],
     "image": [
-      "<img src='asset/b1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Bike'/>",
-      "<img src='asset/b2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Bike'/>",
-      "<img src='asset/b3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Motorbike'/>",
-       "<img src='asset/f1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Food'/>",
-      "<img src='asset/f2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Fast Food'/>",
-      "<img src='asset/f3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
-      "<img src='asset/f4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
-      "<img src='asset/f5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Indian Food'/>",
-       "<img src='asset/o1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='City'/>",
-      "<img src='asset/o2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Skyline'/>",
-      "<img src='asset/o3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>",
-      "<img src='asset/o4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Urban Night'/>",
-       "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Space'/>",
-      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Moon'/>",
-      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Astronomy'/>",
-      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Space'/>",
-      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Moon'/>",
-      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Astronomy'/>",
-       "<img src='asset/a1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Dog'/>",
-      "<img src='asset/a2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Cat'/>",
-      "<img src='asset/a3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-      "<img src='asset/a4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-      "<img src='asset/i8.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-      "<img src='asset/i9.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Wildlife'/>",
-       "<img src='asset/c1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Car'/>",
-      "<img src='asset/c2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Sports Car'/>",
-      "<img src='asset/c4.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>",
-      "<img src='asset/c5.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Luxury Car'/>",
-       "<img src='asset/i1.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 1'/>",
-      "<img src='asset/i2.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 2'/>",
-      "<img src='asset/i3.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 3'/>",
-      "<img src='asset/i4.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 4'/>",
-      "<img src='asset/i5.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 5'/>",
-      "<img src='asset/i6.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 6'/>",
-      "<img src='asset/i7.jpg' width='600' height='400' style='border-radius: 12px; margin-top: 8px;' alt='Image 7'/>",
-      "<img src='asset/n1.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Nature'/>",
-      "<img src='asset/n2.jpg' style='border-radius: 12px; margin-top: 8px;' alt='Mountains'/>",
-      "<img src='asset/n3.jpg' style='border-radius: 12px; margin-top: 8px;' alt='River'/>"
+      "<img src='asset/b1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Bike'/>",
+      "<img src='asset/b2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Sports Bike'/>",
+      "<img src='asset/b3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Motorbike'/>",
+      "<img src='asset/b4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Motorbike'/>",
+      "<img src='asset/f1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Food'/>",
+      "<img src='asset/f2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Fast Food'/>",
+      "<img src='asset/f3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Indian Food'/>",
+      "<img src='asset/f5.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Indian Food'/>",
+      "<img src='asset/o1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='City'/>",
+      "<img src='asset/o2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Skyline'/>",
+      "<img src='asset/o3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Urban Night'/>",
+      "<img src='asset/o4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Urban Night'/>",
+      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Space'/>",
+      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Moon'/>",
+      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Astronomy'/>",
+      "<img src='asset/s1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Space'/>",
+      "<img src='asset/s2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Moon'/>",
+      "<img src='asset/s3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Astronomy'/>",
+      "<img src='asset/a1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Dog'/>",
+      "<img src='asset/a2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Cat'/>",
+      "<img src='asset/a3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/a4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i8.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/i9.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Wildlife'/>",
+      "<img src='asset/c1.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Car'/>",
+      "<img src='asset/c2.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Sports Car'/>",
+      "<img src='asset/c3.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Sports Car'/>",
+      "<img src='asset/c4.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Luxury Car'/>",
+      "<img src='asset/c5.png' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Luxury Car'/>",
+      "<img src='asset/i1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 1'/>",
+      "<img src='asset/i2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 2'/>",
+      "<img src='asset/i3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 3'/>",
+      "<img src='asset/i4.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 4'/>",
+      "<img src='asset/i5.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 5'/>",
+      "<img src='asset/i6.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 6'/>",
+      "<img src='asset/i7.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Image 7'/>",
+      "<img src='asset/n1.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Nature'/>",
+      "<img src='asset/n2.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='Mountains'/>",
+      "<img src='asset/n3.jpg' style='border-radius: 12px; margin-top: 8px; margin-bottom: 8px;' alt='River'/>"
     ]
-    
   }
 }
