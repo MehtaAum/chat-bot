@@ -148,10 +148,13 @@ userIcon.addEventListener("click" , function(e){
   
   profile.innerHTML = `
 
-    <h1>Login</h1>
-    <input type="email" placeholder="Useremail" id="enteredUserEmailID" />
-    
-  
+    <h1 class="text-center text-white text-[25px]">Login</h1>
+    <label class="text-white text-[18px]">Email :</label>
+    <input type="email" placeholder="Useremail" id="enteredUserEmailID" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <label class="text-white text-[18px]">Password :</label>
+    <input type="password" placeholder="Password" id="enteredUserPassword" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <p class="text-[15px] text-center text-[#d2d2d2] my-[5px]">Don't have an account? <span class="">sign up</span></p>
+    <button class="bg-[#d8d8d8] w-full h-[40px] text-[18px] rounded-[10px] text-[#2E2F2E] font-bold">Login</button>
   `
   
 })
