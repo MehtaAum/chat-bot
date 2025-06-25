@@ -3,9 +3,16 @@ let enterIcon = document.querySelector(".enter-icon");
 let interaction = document.querySelector(".interaction");
 let userIcon = document.querySelector(".user-icon");
 let sideBar = document.querySelector(".sidebar-icon");
-let profile = document.querySelector(".profile");
 let overlay = document.querySelector(".overlay")
 let history = document.querySelector(".history")
+let profile = document.querySelector(".profile");
+
+let enteredUserEmailID = document.getElementById("enteredUserEmailID");
+let enteredUserPassword = document.getElementById("enteredUserPassword");
+
+let newUserEmailID = document.getElementById("newUserEmailID");
+let settedUserPassword = document.getElementById("settedUserPassword");
+let confirmedUserPassword = document.getElementById("confirmedUserPassword");
 
 
 let chatData = {
@@ -144,14 +151,47 @@ userIcon.addEventListener("click" , function(e){
     flag = true
   }
   
+    loginForm();
+
+})
+
+function loginForm(){
   profile.innerHTML = `
 
-    <h1>Login</h1>
-    <input type="email" placeholder="Useremail" id="enteredUserEmailID" />
-    
-  
+    <h1 class="text-center text-white text-[25px]">Login</h1>
+    <label class="text-white text-[18px]">Email :</label>
+    <input type="email" placeholder="Useremail" id="enteredUserEmailID" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <label class="text-white text-[18px]">Password :</label>
+    <input type="password" placeholder="Password" id="enteredUserPassword" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <p class="text-[15px] text-center text-[#d2d2d2] my-[5px]">Don't have an account? <span class="underline cursor-pointer" onclick="signupForm()">Sign up</span></p>
+    <button class="bg-[#d8d8d8] w-full h-[40px] text-[18px] rounded-[10px] text-[#2E2F2E] font-bold">Login</button>
   `
-})
+};
+
+function signupForm(){
+  profile.innerHTML = `
+
+    <h1 class="text-center text-white text-[25px]">Sign Up</h1>
+    <label class="text-white text-[18px]">Email :</label>
+    <input type="email" placeholder="Useremail" id="newUserEmailID" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <label class="text-white text-[18px]">Set Password :</label>
+    <input type="password" placeholder="Set Password" id="settedUserPassword" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <label class="text-white text-[18px]">Confirm Password :</label>
+    <input type="password" placeholder="Confirm Password" id="confirmedUserPassword" class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] placeholder:text-gray-300 pl-[10px] " />
+    <p class="text-[15px] text-center text-[#d2d2d2] my-[5px]">Already have an account? <span class="underline cursor-pointer" onclick="loginForm()">Login</span></p>
+    <button class="bg-[#d8d8d8] w-full h-[40px] text-[18px] rounded-[10px] text-[#2E2F2E] font-bold">Submit</button>
+  `
+};
+
+function settingUserDetails(){
+  let correctUserID = newUserEmailID.value;
+  if (settedUserPassword == confirmedUserPassword) {
+    
+  }
+}
+
+function passwordCheckForLogin(){
+}
 
 profile.addEventListener("click" , function (e) {
     e.stopPropagation();
@@ -164,8 +204,8 @@ profile.addEventListener("click" , function (e) {
 
 
 
-let checkHis = false
 //history-icon
+let checkHis = false
   history.style.transform = "translateX(-590px)"
 sideBar.addEventListener("click", function (e) {
   e.stopPropagation(); // prevent triggering document click
