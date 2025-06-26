@@ -5,7 +5,9 @@ let userIcon = document.querySelector(".user-icon");
 let sideBar = document.querySelector(".sidebar-icon");
 let overlay = document.querySelector(".overlay")
 let history = document.querySelector(".history")
+let historyDiv = document.querySelector(".history-save")
 let profile = document.querySelector(".profile");
+let newChat = document.querySelector(".new-chat");
 
 let enteredUserEmailID = document.getElementById("enteredUserEmailID");
 let enteredUserPassword = document.getElementById("enteredUserPassword");
@@ -17,6 +19,10 @@ let confirmedUserPassword = document.getElementById("confirmedUserPassword");
 const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$/;
 
+let userResponseSave = JSON.parse(localStorage.getItem("userResponseSave")) || [] 
+let botResponseSave = JSON.parse(localStorage.getItem("botResponseSave")) || [] 
+let chatHistory = JSON.parse(localStorage.getItem("chatHistory")) || [];
+let chatIndex = chatHistory.length;
 
 let chatData = {
     
@@ -70,7 +76,7 @@ function handleSend(e) {
 
     //user
 
-    let response = document.createElement("div");
+    let response = document.createElement("div")
 
     response.className =
       "rounded-[25px] text-white  px-4 py-2 w-fit max-w-[60%] flex self-end text-wrap wrap-anywhere bg-[#313031]";
@@ -85,6 +91,13 @@ function handleSend(e) {
     let userInput = search.value.trim().toLowerCase();
     search.value = "";
     autoResize(search);
+
+    //localStorage user
+
+    userResponseSave.push(userInput)
+    localStorage.setItem("userResponseSave" , JSON.stringify(userResponseSave))
+    
+    //localStorage user
 
     let matchKey = Object.keys(chatData).find((key) => userInput.includes(key));
 
@@ -110,6 +123,13 @@ function handleSend(e) {
       botText = responseArray[Math.floor(Math.random() * responseArray.length)];
     }
 
+    //localStorage bot
+
+      botResponseSave.push(botText)
+      localStorage.setItem("botResponseSave" , JSON.stringify(botResponseSave))
+
+    //localStorage bot
+
     //bot
 
     let typing = document.createElement("div");
@@ -134,6 +154,35 @@ function handleSend(e) {
 
 search.addEventListener("keydown", handleSend);
 enterIcon.addEventListener("click", handleSend);
+
+
+
+//load
+window.addEventListener("DOMContentLoaded", () => {
+  const userMessages = JSON.parse(localStorage.getItem("userResponseSave")) || [];
+  const botMessages = JSON.parse(localStorage.getItem("botResponseSave")) || [];
+
+  // Make sure both arrays are the same length
+  for (let i = 0; i < userMessages.length; i++) {
+    // User message
+    let userDiv = document.createElement("div");
+    userDiv.className = "rounded-[25px] text-white px-4 py-2 w-fit max-w-[60%] flex self-end text-wrap bg-[#313031]";
+    userDiv.innerHTML = `<h1 class="flex items-center">${userMessages[i]}</h1>`;
+    interaction.appendChild(userDiv);
+
+    // Bot message
+    if (botMessages[i]) {
+      let botDiv = document.createElement("div");
+      botDiv.className = "rounded-[25px] text-white px-4 py-2 w-fit max-w-[95%] sm:max-w-[60%] flex self-start text-wrap bg-[#313031]";
+      botDiv.innerHTML = `<h1 class="flex items-center">${botMessages[i]}</h1>`;
+      interaction.appendChild(botDiv);
+    }
+  }
+});
+
+//load
+
+
 
 
 //profile-icon
@@ -361,6 +410,7 @@ profile.addEventListener("click" , function (e) {
 
 let checkHis = false
   history.style.transform = "translateX(-590px)"
+
 sideBar.addEventListener("click", function (e) {
   e.stopPropagation(); 
 
@@ -377,6 +427,84 @@ sideBar.addEventListener("click", function (e) {
   profile.style.opacity = "0";
   flag = true;
 });
+
+
+
+newChat.addEventListener("click", function () {
+
+  if (userResponseSave.length > 0 || botResponseSave.length > 0) {
+    chatHistory.push({
+      user: [...userResponseSave],
+      bot: [...botResponseSave]
+    });
+    localStorage.setItem("chatHistory", JSON.stringify(chatHistory));
+
+    const historySave = document.createElement("div");
+    historyDiv.appendChild(historySave);
+
+    historySave.innerHTML = `
+      <div class="his-chat text-white flex items-center gap-10 p-3 cursor-pointer hover:bg-[#8b8b8b3f] mt-5 rounded-[10px]" data-index="${chatIndex}">
+        ${userResponseSave[0] ? userResponseSave[0].slice(0, 25) + "..." : "Untitled Chat"}
+      </div>
+    `;
+
+    chatIndex++;
+  }
+
+  // reset chat
+  userResponseSave = [];
+  botResponseSave = [];
+
+  interaction.innerHTML = "";
+  
+  localStorage.removeItem("userResponseSave");
+  localStorage.removeItem("botResponseSave");
+});
+
+document.addEventListener("click", function (e) {
+  if (e.target.classList.contains("his-chat")) {
+    const index = parseInt(e.target.getAttribute("data-index"));
+    const savedChat = JSON.parse(localStorage.getItem("chatHistory"))[index];
+
+    if (!savedChat) return;
+
+    interaction.innerHTML = "";
+
+    for (let i = 0; i < savedChat.user.length; i++) {
+
+      // User message
+      const userDiv = document.createElement("div");
+      userDiv.className = "rounded-[25px] text-white px-4 py-2 w-fit max-w-[60%] flex self-end text-wrap bg-[#313031]";
+      userDiv.innerHTML = `<h1 class="flex items-center">${savedChat.user[i]}</h1>`;
+      interaction.appendChild(userDiv);
+
+      // Bot message
+      if (savedChat.bot[i]) {
+        const botDiv = document.createElement("div");
+        botDiv.className = "rounded-[25px] text-white px-4 py-2 w-fit max-w-[95%] sm:max-w-[60%] flex self-start text-wrap bg-[#313031]";
+        botDiv.innerHTML = `<h1 class="flex items-center">${savedChat.bot[i]}</h1>`;
+        interaction.appendChild(botDiv);
+      }
+    }
+  }
+});
+
+
+window.addEventListener("DOMContentLoaded", function () {
+  const chatHistory = JSON.parse(localStorage.getItem("chatHistory")) || [];
+
+  chatHistory.forEach((chat, index) => {
+    const historySave = document.createElement("div");
+    historyDiv.appendChild(historySave);
+
+    historySave.innerHTML = `
+      <div class="his-chat text-white flex items-center gap-10 p-3 cursor-pointer hover:bg-[#8b8b8b3f] mt-5 rounded-[10px]" data-index="${index}">
+        ${chat.user[0] ? chat.user[0].slice(0, 25) + "..." : "Untitled Chat"}
+      </div>
+    `;
+  });
+});
+
 
 //history-icon
 
