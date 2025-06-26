@@ -246,6 +246,7 @@ function toggleProfile(show) {
   flag = !show;
 }
 
+
 function settingUserDetails() {
   const emailEl   = document.getElementById("newUserEmailID");
   const passEl    = document.getElementById("settedUserPassword");
@@ -265,14 +266,13 @@ function settingUserDetails() {
 
   if (hasErrors("emailError", "passError", "confirmError")) return;
 
-  correctUserID = email;
-  correctUserPassword = password;
+  const userData = { email, password };
+  localStorage.setItem("user", JSON.stringify(userData));
 
   alert("Account created! Please log in.");
-  console.log("account created");
-  
   loginForm();
 }
+
 
 function passwordCheckForLogin() {
   const emailEl = document.getElementById("enteredUserEmailID");
@@ -292,23 +292,26 @@ function passwordCheckForLogin() {
 
   if (hasErrors("loginEmailError", "loginPassError")) return;
 
-  if (email !== correctUserID) {
+  const storedUser = JSON.parse(localStorage.getItem("user"));
+
+  if (!storedUser || !storedUser.email || !storedUser.password) {
+    document.getElementById("loginEmailError").textContent = "No account found. Please sign up.";
+    return;
+  }
+
+  if (storedUser.email !== email) {
     document.getElementById("loginEmailError").textContent = "Email not found.";
     return;
   }
 
-  if (pass !== correctUserPassword) {
+  if (storedUser.password !== pass) {
     document.getElementById("loginPassError").textContent = "Incorrect password.";
     return;
   }
 
   alert("Login successful!");
-  console.log("success");
-  
   toggleProfile(false);
 }
-
-
 
 
 function validateEmailInput(input, errorId) {
@@ -349,18 +352,17 @@ profile.addEventListener("click" , function (e) {
     e.stopPropagation();
 })
 
-
-
 //profile-icon
 
 
 
 
 //history-icon
+
 let checkHis = false
   history.style.transform = "translateX(-590px)"
 sideBar.addEventListener("click", function (e) {
-  e.stopPropagation(); // prevent triggering document click
+  e.stopPropagation(); 
 
   if (!checkHis) {
     history.style.transform = "translateX(0px)";
@@ -375,9 +377,6 @@ sideBar.addEventListener("click", function (e) {
   profile.style.opacity = "0";
   flag = true;
 });
-
-
-
 
 //history-icon
 
