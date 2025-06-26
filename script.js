@@ -3,9 +3,19 @@ let enterIcon = document.querySelector(".enter-icon");
 let interaction = document.querySelector(".interaction");
 let userIcon = document.querySelector(".user-icon");
 let sideBar = document.querySelector(".sidebar-icon");
-let profile = document.querySelector(".profile");
 let overlay = document.querySelector(".overlay")
 let history = document.querySelector(".history")
+let profile = document.querySelector(".profile");
+
+let enteredUserEmailID = document.getElementById("enteredUserEmailID");
+let enteredUserPassword = document.getElementById("enteredUserPassword");
+
+let newUserEmailID = document.getElementById("newUserEmailID");
+let settedUserPassword = document.getElementById("settedUserPassword");
+let confirmedUserPassword = document.getElementById("confirmedUserPassword");
+
+const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[^\da-zA-Z]).{8,}$/;
 
 
 let chatData = {
@@ -144,14 +154,196 @@ userIcon.addEventListener("click" , function(e){
     flag = true
   }
   
-  profile.innerHTML = `
+    loginForm();
 
-    <h1>Login</h1>
-    <input type="email" placeholder="Useremail" id="enteredUserEmailID" />
-    
-  
-  `
 })
+
+function loginForm() {
+  profile.innerHTML = `
+    <h1 class="text-center text-white text-[25px]">Login</h1>
+
+    <label class="text-white text-[18px]">Email :</label>
+    <input type="email" id="enteredUserEmailID"
+           placeholder="Useremail"
+           oninput="validateEmailInput(this, 'loginEmailError')"
+           class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] 
+         bg-transparent text-white placeholder:text-gray-400 pl-[10px] 
+         focus:outline-none focus:ring-2 focus:ring-[#d8d8d8]" />
+    <p id="loginEmailError" class="text-red-500 text-sm mb-2"></p>
+
+    <label class="text-white text-[18px]">Password :</label>
+    <input type="password" id="enteredUserPassword"
+           placeholder="Password"
+           oninput="validatePasswordInput(this, 'loginPassError')"
+           class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] 
+         bg-transparent text-white placeholder:text-gray-400 pl-[10px] 
+         focus:outline-none focus:ring-2 focus:ring-[#d8d8d8]" />
+    <p id="loginPassError" class="text-red-500 text-sm mb-2"></p>
+
+    <p class="text-[15px] text-center text-[#d2d2d2] my-[5px]">
+      Don't have an account? <span class="underline cursor-pointer" onclick="signupForm()">Sign up</span>
+    </p>
+    <button class="bg-[#d8d8d8] w-full h-[40px] text-[18px] rounded-[10px] text-[#2E2F2E] font-bold" onclick="passwordCheckForLogin()">Login</button>
+  `;
+}
+
+
+function signupForm() {
+  profile.innerHTML = `
+    <h1 class="text-center text-white text-[25px]">Sign Up</h1>
+
+    <label class="text-white text-[18px]">Email :</label>
+    <input type="email" id="newUserEmailID"
+           placeholder="Useremail"
+           oninput="validateEmailInput(this, 'emailError')"
+           class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] 
+         bg-transparent text-white placeholder:text-gray-400 pl-[10px] 
+         focus:outline-none focus:ring-2 focus:ring-[#d8d8d8]" />
+    <p id="emailError" class="text-red-500 text-sm mb-2"></p>
+
+    <label class="text-white text-[18px]">Set Password :</label>
+    <input type="password" id="settedUserPassword"
+           placeholder="Set Password"
+           oninput="validatePasswordInput(this, 'passError')"
+           class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] 
+         bg-transparent text-white placeholder:text-gray-400 pl-[10px] 
+         focus:outline-none focus:ring-2 focus:ring-[#d8d8d8]" />
+    <p id="passError" class="text-red-500 text-sm mb-2"></p>
+
+    <label class="text-white text-[18px]">Confirm Password :</label>
+    <input type="password" id="confirmedUserPassword"
+           placeholder="Confirm Password"
+           oninput="validateConfirmPasswordInput(this, document.getElementById('settedUserPassword'), 'confirmError')"
+           class="border-2 border-[#585757] w-full h-[40px] rounded-[10px] 
+         bg-transparent text-white placeholder:text-gray-400 pl-[10px] 
+         focus:outline-none focus:ring-2 focus:ring-[#d8d8d8]" />
+    <p id="confirmError" class="text-red-500 text-sm mb-2"></p>
+
+    <p class="text-[15px] text-center text-[#d2d2d2] my-[5px]">
+      Already have an account? <span class="underline cursor-pointer" onclick="loginForm()">Login</span>
+    </p>
+    <button class="bg-[#d8d8d8] w-full h-[40px] text-[18px] rounded-[10px] text-[#2E2F2E] font-bold" onclick="settingUserDetails()">Submit</button>
+  `;
+}
+
+let correctUserID = "abc";
+let correctUserPassword = "abc";
+
+function hasErrors(...ids) {
+  return ids.some(id => {
+    const el = document.getElementById(id);
+    return el && el.textContent.trim() !== "";
+  });
+}
+
+function clearText(id) {
+  const el = document.getElementById(id);
+  if (el) el.textContent = "";
+}
+
+function toggleProfile(show) {
+  profile.style.opacity = show ? "1" : "0";
+  flag = !show;
+}
+
+function settingUserDetails() {
+  const emailEl   = document.getElementById("newUserEmailID");
+  const passEl    = document.getElementById("settedUserPassword");
+  const confirmEl = document.getElementById("confirmedUserPassword");
+
+  const email    = emailEl.value.trim();
+  const password = passEl.value;
+  const confirm  = confirmEl.value;
+
+  validateEmailInput(emailEl, "emailError");
+  validatePasswordInput(passEl, "passError");
+  validateConfirmPasswordInput(confirmEl, passEl, "confirmError");
+
+  if (!email)    document.getElementById("emailError").textContent = "Email is required.";
+  if (!password) document.getElementById("passError").textContent = "Password is required.";
+  if (!confirm)  document.getElementById("confirmError").textContent = "Confirm your password.";
+
+  if (hasErrors("emailError", "passError", "confirmError")) return;
+
+  correctUserID = email;
+  correctUserPassword = password;
+
+  alert("Account created! Please log in.");
+  console.log("account created");
+  
+  loginForm();
+}
+
+function passwordCheckForLogin() {
+  const emailEl = document.getElementById("enteredUserEmailID");
+  const passEl  = document.getElementById("enteredUserPassword");
+
+  const email = emailEl.value.trim();
+  const pass  = passEl.value;
+
+  clearText("loginEmailError");
+  clearText("loginPassError");
+
+  validateEmailInput(emailEl, "loginEmailError");
+  validatePasswordInput(passEl, "loginPassError");
+
+  if (!email) document.getElementById("loginEmailError").textContent = "Email is required.";
+  if (!pass)  document.getElementById("loginPassError").textContent = "Password is required.";
+
+  if (hasErrors("loginEmailError", "loginPassError")) return;
+
+  if (email !== correctUserID) {
+    document.getElementById("loginEmailError").textContent = "Email not found.";
+    return;
+  }
+
+  if (pass !== correctUserPassword) {
+    document.getElementById("loginPassError").textContent = "Incorrect password.";
+    return;
+  }
+
+  alert("Login successful!");
+  console.log("success");
+  
+  toggleProfile(false);
+}
+
+
+
+
+function validateEmailInput(input, errorId) {
+  const error = document.getElementById(errorId);
+  if (input.value.trim() === "") {
+    error.textContent = "Email is required.";
+  } else if (!emailRegex.test(input.value.trim())) {
+    error.textContent = "Invalid email format.";
+  } else {
+    error.textContent = "";
+  }
+}
+
+function validatePasswordInput(input, errorId) {
+  const error = document.getElementById(errorId);
+  if (input.value === "") {
+    error.textContent = "Password is required.";
+  } else if (!passwordRegex.test(input.value)) {
+    error.textContent = "Must be 8+ chars incl. upper, lower, number & symbol.";
+  } else {
+    error.textContent = "";
+  }
+}
+
+function validateConfirmPasswordInput(confirmInput, originalInput, errorId) {
+  const error = document.getElementById(errorId);
+  if (confirmInput.value === "") {
+    error.textContent = "Confirm your password.";
+  } else if (confirmInput.value !== originalInput.value) {
+    error.textContent = "Passwords do not match.";
+  } else {
+    error.textContent = "";
+  }
+}
+
 
 profile.addEventListener("click" , function (e) {
     e.stopPropagation();
@@ -164,8 +356,8 @@ profile.addEventListener("click" , function (e) {
 
 
 
-let checkHis = false
 //history-icon
+let checkHis = false
   history.style.transform = "translateX(-590px)"
 sideBar.addEventListener("click", function (e) {
   e.stopPropagation(); // prevent triggering document click
